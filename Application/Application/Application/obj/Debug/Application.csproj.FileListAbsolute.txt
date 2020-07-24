@@ -1,6 +1,0 @@
-D:\Desktop\GitHub\C-Application\Application\Application\Application\obj\Debug\Application.csprojAssemblyReference.cache
-D:\Desktop\GitHub\C-Application\Application\Application\Application\obj\Debug\Application.Form1.resources
-D:\Desktop\GitHub\C-Application\Application\Application\Application\obj\Debug\Application.Properties.Resources.resources
-D:\Desktop\GitHub\C-Application\Application\Application\Application\obj\Debug\Application.csproj.GenerateResource.cache
-D:\Desktop\GitHub\C-Application\Application\Application\Application\obj\Debug\Application.csproj.CoreCompileInputs.cache
-D:\Desktop\GitHub\C-Application\Application\Application\Application\obj\Debug\Application.Form2.resources
