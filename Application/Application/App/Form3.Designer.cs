@@ -37,7 +37,7 @@
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(156, 296);
+            this.button1.Location = new System.Drawing.Point(104, 239);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(179, 41);
             this.button1.TabIndex = 0;
@@ -47,7 +47,7 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(156, 216);
+            this.textBox1.Location = new System.Drawing.Point(104, 159);
             this.textBox1.Name = "textBox1";
             this.textBox1.PasswordChar = '#';
             this.textBox1.Size = new System.Drawing.Size(179, 20);
@@ -56,25 +56,27 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(51, 171);
+            this.label1.Location = new System.Drawing.Point(44, 118);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(396, 24);
+            this.label1.Size = new System.Drawing.Size(287, 24);
             this.label1.TabIndex = 2;
-            this.label1.Text = "ENTER AN ADMIN PASSWORD TO SIGN UP";
+            this.label1.Text = "ENTER ADMINISRTRATER KEY";
             // 
             // Form3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(500, 386);
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(389, 334);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.button1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form3";
-            this.Text = "ADMIN";
+            this.Text = "CARE DISTHIBUTION ADMIN";
             this.ResumeLayout(false);
             this.PerformLayout();
 
