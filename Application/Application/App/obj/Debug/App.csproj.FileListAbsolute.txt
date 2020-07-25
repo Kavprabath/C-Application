@@ -26,3 +26,17 @@ D:\Desktop\GitHub\C-Application\Application\Application\App\obj\Debug\App.dashbo
 D:\Desktop\GitHub\C-Application\Application\Application\App\obj\Debug\App.adminlog.resources
 D:\Desktop\GitHub\C-Application\Application\Application\App\obj\Debug\App.signup.resources
 D:\Desktop\GitHub\C-Application\Application\Application\App\obj\Debug\App.admin.resources
+E:\C# assign\C-Application\Application\Application\App\bin\Debug\App.exe.config
+E:\C# assign\C-Application\Application\Application\App\bin\Debug\App.exe
+E:\C# assign\C-Application\Application\Application\App\bin\Debug\App.pdb
+E:\C# assign\C-Application\Application\Application\App\obj\Debug\App.csprojAssemblyReference.cache
+E:\C# assign\C-Application\Application\Application\App\obj\Debug\App.login.resources
+E:\C# assign\C-Application\Application\Application\App\obj\Debug\App.dashboard.resources
+E:\C# assign\C-Application\Application\Application\App\obj\Debug\App.adminlog.resources
+E:\C# assign\C-Application\Application\Application\App\obj\Debug\App.signup.resources
+E:\C# assign\C-Application\Application\Application\App\obj\Debug\App.admin.resources
+E:\C# assign\C-Application\Application\Application\App\obj\Debug\App.Properties.Resources.resources
+E:\C# assign\C-Application\Application\Application\App\obj\Debug\App.csproj.GenerateResource.cache
+E:\C# assign\C-Application\Application\Application\App\obj\Debug\App.csproj.CoreCompileInputs.cache
+E:\C# assign\C-Application\Application\Application\App\obj\Debug\App.exe
+E:\C# assign\C-Application\Application\Application\App\obj\Debug\App.pdb

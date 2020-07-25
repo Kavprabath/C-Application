@@ -39,17 +39,17 @@
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
-            this.textBox9 = new System.Windows.Forms.TextBox();
+            this.fnam_txt = new System.Windows.Forms.TextBox();
+            this.user_txt = new System.Windows.Forms.TextBox();
+            this.nic_txt = new System.Windows.Forms.TextBox();
+            this.add_txt = new System.Windows.Forms.TextBox();
+            this.con_txt = new System.Windows.Forms.TextBox();
+            this.pass_txt = new System.Windows.Forms.TextBox();
+            this.repass_txt = new System.Windows.Forms.TextBox();
+            this.email_txt = new System.Windows.Forms.TextBox();
+            this.male_btn = new System.Windows.Forms.RadioButton();
+            this.fmale_btn = new System.Windows.Forms.RadioButton();
+            this.jobT_txt = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
@@ -155,93 +155,94 @@
             this.label10.TabIndex = 9;
             this.label10.Text = "GENDER";
             // 
-            // textBox1
+            // fnam_txt
             // 
-            this.textBox1.Location = new System.Drawing.Point(205, 138);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(375, 20);
-            this.textBox1.TabIndex = 10;
+            this.fnam_txt.Location = new System.Drawing.Point(205, 138);
+            this.fnam_txt.Name = "fnam_txt";
+            this.fnam_txt.Size = new System.Drawing.Size(375, 20);
+            this.fnam_txt.TabIndex = 10;
+            this.fnam_txt.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
-            // textBox2
+            // user_txt
             // 
-            this.textBox2.Location = new System.Drawing.Point(205, 171);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(158, 20);
-            this.textBox2.TabIndex = 11;
+            this.user_txt.Location = new System.Drawing.Point(205, 171);
+            this.user_txt.Name = "user_txt";
+            this.user_txt.Size = new System.Drawing.Size(158, 20);
+            this.user_txt.TabIndex = 11;
             // 
-            // textBox3
+            // nic_txt
             // 
-            this.textBox3.Location = new System.Drawing.Point(205, 201);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(158, 20);
-            this.textBox3.TabIndex = 12;
+            this.nic_txt.Location = new System.Drawing.Point(205, 201);
+            this.nic_txt.Name = "nic_txt";
+            this.nic_txt.Size = new System.Drawing.Size(158, 20);
+            this.nic_txt.TabIndex = 12;
             // 
-            // textBox4
+            // add_txt
             // 
-            this.textBox4.Location = new System.Drawing.Point(205, 231);
-            this.textBox4.Multiline = true;
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(375, 39);
-            this.textBox4.TabIndex = 13;
+            this.add_txt.Location = new System.Drawing.Point(205, 231);
+            this.add_txt.Multiline = true;
+            this.add_txt.Name = "add_txt";
+            this.add_txt.Size = new System.Drawing.Size(375, 39);
+            this.add_txt.TabIndex = 13;
             // 
-            // textBox5
+            // con_txt
             // 
-            this.textBox5.Location = new System.Drawing.Point(205, 283);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(158, 20);
-            this.textBox5.TabIndex = 14;
+            this.con_txt.Location = new System.Drawing.Point(205, 283);
+            this.con_txt.Name = "con_txt";
+            this.con_txt.Size = new System.Drawing.Size(158, 20);
+            this.con_txt.TabIndex = 14;
             // 
-            // textBox6
+            // pass_txt
             // 
-            this.textBox6.Location = new System.Drawing.Point(204, 317);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(140, 20);
-            this.textBox6.TabIndex = 15;
+            this.pass_txt.Location = new System.Drawing.Point(204, 317);
+            this.pass_txt.Name = "pass_txt";
+            this.pass_txt.Size = new System.Drawing.Size(140, 20);
+            this.pass_txt.TabIndex = 15;
             // 
-            // textBox7
+            // repass_txt
             // 
-            this.textBox7.Location = new System.Drawing.Point(481, 317);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(137, 20);
-            this.textBox7.TabIndex = 16;
+            this.repass_txt.Location = new System.Drawing.Point(481, 317);
+            this.repass_txt.Name = "repass_txt";
+            this.repass_txt.Size = new System.Drawing.Size(137, 20);
+            this.repass_txt.TabIndex = 16;
             // 
-            // textBox8
+            // email_txt
             // 
-            this.textBox8.Location = new System.Drawing.Point(203, 355);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(160, 20);
-            this.textBox8.TabIndex = 17;
+            this.email_txt.Location = new System.Drawing.Point(203, 355);
+            this.email_txt.Name = "email_txt";
+            this.email_txt.Size = new System.Drawing.Size(160, 20);
+            this.email_txt.TabIndex = 17;
             // 
-            // radioButton1
+            // male_btn
             // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.BackColor = System.Drawing.Color.Transparent;
-            this.radioButton1.Location = new System.Drawing.Point(203, 414);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(54, 17);
-            this.radioButton1.TabIndex = 18;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "MALE";
-            this.radioButton1.UseVisualStyleBackColor = false;
+            this.male_btn.AutoSize = true;
+            this.male_btn.BackColor = System.Drawing.Color.Transparent;
+            this.male_btn.Location = new System.Drawing.Point(203, 414);
+            this.male_btn.Name = "male_btn";
+            this.male_btn.Size = new System.Drawing.Size(54, 17);
+            this.male_btn.TabIndex = 18;
+            this.male_btn.TabStop = true;
+            this.male_btn.Text = "MALE";
+            this.male_btn.UseVisualStyleBackColor = false;
             // 
-            // radioButton2
+            // fmale_btn
             // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.BackColor = System.Drawing.Color.Transparent;
-            this.radioButton2.Location = new System.Drawing.Point(276, 414);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(67, 17);
-            this.radioButton2.TabIndex = 19;
-            this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "FEMALE";
-            this.radioButton2.UseVisualStyleBackColor = false;
+            this.fmale_btn.AutoSize = true;
+            this.fmale_btn.BackColor = System.Drawing.Color.Transparent;
+            this.fmale_btn.Location = new System.Drawing.Point(276, 414);
+            this.fmale_btn.Name = "fmale_btn";
+            this.fmale_btn.Size = new System.Drawing.Size(67, 17);
+            this.fmale_btn.TabIndex = 19;
+            this.fmale_btn.TabStop = true;
+            this.fmale_btn.Text = "FEMALE";
+            this.fmale_btn.UseVisualStyleBackColor = false;
             // 
-            // textBox9
+            // jobT_txt
             // 
-            this.textBox9.Location = new System.Drawing.Point(203, 388);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(160, 20);
-            this.textBox9.TabIndex = 20;
+            this.jobT_txt.Location = new System.Drawing.Point(203, 388);
+            this.jobT_txt.Name = "jobT_txt";
+            this.jobT_txt.Size = new System.Drawing.Size(160, 20);
+            this.jobT_txt.TabIndex = 20;
             // 
             // label11
             // 
@@ -264,7 +265,7 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // Form4
+            // signup
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -273,17 +274,17 @@
             this.ClientSize = new System.Drawing.Size(630, 481);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label11);
-            this.Controls.Add(this.textBox9);
-            this.Controls.Add(this.radioButton2);
-            this.Controls.Add(this.radioButton1);
-            this.Controls.Add(this.textBox8);
-            this.Controls.Add(this.textBox7);
-            this.Controls.Add(this.textBox6);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.jobT_txt);
+            this.Controls.Add(this.fmale_btn);
+            this.Controls.Add(this.male_btn);
+            this.Controls.Add(this.email_txt);
+            this.Controls.Add(this.repass_txt);
+            this.Controls.Add(this.pass_txt);
+            this.Controls.Add(this.con_txt);
+            this.Controls.Add(this.add_txt);
+            this.Controls.Add(this.nic_txt);
+            this.Controls.Add(this.user_txt);
+            this.Controls.Add(this.fnam_txt);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label8);
@@ -295,7 +296,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Name = "Form4";
+            this.Name = "signup";
             this.Text = "CARE DISTRIBUTION SIGN UP";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -314,17 +315,17 @@
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.TextBox textBox8;
-        private System.Windows.Forms.RadioButton radioButton1;
-        private System.Windows.Forms.RadioButton radioButton2;
-        private System.Windows.Forms.TextBox textBox9;
+        private System.Windows.Forms.TextBox fnam_txt;
+        private System.Windows.Forms.TextBox user_txt;
+        private System.Windows.Forms.TextBox nic_txt;
+        private System.Windows.Forms.TextBox add_txt;
+        private System.Windows.Forms.TextBox con_txt;
+        private System.Windows.Forms.TextBox pass_txt;
+        private System.Windows.Forms.TextBox repass_txt;
+        private System.Windows.Forms.TextBox email_txt;
+        private System.Windows.Forms.RadioButton male_btn;
+        private System.Windows.Forms.RadioButton fmale_btn;
+        private System.Windows.Forms.TextBox jobT_txt;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Button button1;
     }
