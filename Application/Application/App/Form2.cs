@@ -28,5 +28,12 @@ namespace App
             ADMINPASS.Visible = true;
             this.Hide();
         }
+
+        private void button18_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            Form1 loginform = new Form1();
+            loginform.Visible = true;
+        }
     }
 }
