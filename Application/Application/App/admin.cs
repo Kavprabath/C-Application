@@ -10,18 +10,23 @@ using System.Windows.Forms;
 
 namespace App
 {
-    public partial class Form5 : Form
+    public partial class admin : Form
     {
-        public Form5()
+        public admin()
         {
             InitializeComponent();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Form4 signform = new Form4();
+            signup signform = new signup();
             signform.Visible = true;
             this.Hide();
+        }
+
+        private void admin_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace App
 {
-    public partial class Form3 : Form
+    public partial class adminlog : Form
     {
-        public Form3()
+        public adminlog()
         {
             InitializeComponent();
         }
@@ -24,7 +24,7 @@ namespace App
             
             if (adpass == "Admin@123")
             { 
-                Form5 ADMINform = new Form5();
+                admin ADMINform = new admin();
                  ADMINform.Visible = true;
                 this.Hide();
             }

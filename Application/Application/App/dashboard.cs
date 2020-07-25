@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace App
 {
-    public partial class Form2 : Form
+    public partial class dashboard : Form
     {
-        public Form2()
+        public dashboard()
         {
             InitializeComponent();
         }
@@ -24,7 +24,7 @@ namespace App
 
         private void button13_Click(object sender, EventArgs e)
         {
-            Form3 ADMINPASS = new Form3();
+            adminlog ADMINPASS = new adminlog();
             ADMINPASS.Visible = true;
             this.Hide();
         }
@@ -32,7 +32,7 @@ namespace App
         private void button18_Click(object sender, EventArgs e)
         {
             this.Close();
-            Form1 loginform = new Form1();
+            login loginform = new login();
             loginform.Visible = true;
         }
     }

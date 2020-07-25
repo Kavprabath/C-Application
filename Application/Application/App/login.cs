@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace App
 {
-    public partial class Form1 : Form
+    public partial class login : Form
     {
-        public Form1()
+        public login()
         {
             InitializeComponent();
         }
@@ -24,7 +24,7 @@ namespace App
             user = textBox1.Text;
             if ((user =="care") && (pass =="admin"))
             {
-                Form2 mainform = new Form2();
+                dashboard mainform = new dashboard();
                 mainform.Visible = true;
                 this.Hide();
             }
@@ -36,7 +36,7 @@ namespace App
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            Form3 ADMINPASS = new Form3();
+            adminlog ADMINPASS = new adminlog();
             ADMINPASS.Visible = true;
             this.Hide();
 
