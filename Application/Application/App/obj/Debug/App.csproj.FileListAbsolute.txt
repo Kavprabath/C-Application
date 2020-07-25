@@ -20,3 +20,4 @@ D:\Desktop\GitHub\C-Application\Application\Application\App\bin\Debug\App.pdb
 D:\Desktop\GitHub\C-Application\Application\Application\App\obj\Debug\App.Form3.resources
 D:\Desktop\GitHub\C-Application\Application\Application\App\obj\Debug\App.Form2.resources
 D:\Desktop\GitHub\C-Application\Application\Application\App\obj\Debug\App.Form4.resources
+D:\Desktop\GitHub\C-Application\Application\Application\App\obj\Debug\App.Form5.resources

@@ -10,22 +10,17 @@ using System.Windows.Forms;
 
 namespace App
 {
-    public partial class Form2 : Form
+    public partial class Form5 : Form
     {
-        public Form2()
+        public Form5()
         {
             InitializeComponent();
         }
 
-        private void Form2_Load(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void button13_Click(object sender, EventArgs e)
-        {
-            Form3 ADMINPASS = new Form3();
-            ADMINPASS.Visible = true;
+            Form4 signform = new Form4();
+            signform.Visible = true;
             this.Hide();
         }
     }

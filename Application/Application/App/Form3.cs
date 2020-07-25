@@ -24,8 +24,8 @@ namespace App
             
             if (adpass == "Admin@123")
             { 
-                Form4 signform = new Form4();
-                 signform.Visible = true;
+                Form5 ADMINform = new Form5();
+                 ADMINform.Visible = true;
                 this.Hide();
             }
             else
