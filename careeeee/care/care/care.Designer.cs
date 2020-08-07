@@ -65,6 +65,8 @@
             this.button1 = new System.Windows.Forms.Button();
             this.HOME = new System.Windows.Forms.TabControl();
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.label46 = new System.Windows.Forms.Label();
+            this.textBox14 = new System.Windows.Forms.TextBox();
             this.textBox7 = new System.Windows.Forms.TextBox();
             this.textBox6 = new System.Windows.Forms.TextBox();
             this.linkLabel2 = new System.Windows.Forms.LinkLabel();
@@ -142,8 +144,9 @@
             this.textBox12 = new System.Windows.Forms.TextBox();
             this.label35 = new System.Windows.Forms.Label();
             this.textBox13 = new System.Windows.Forms.TextBox();
-            this.textBox14 = new System.Windows.Forms.TextBox();
-            this.label46 = new System.Windows.Forms.Label();
+            this.textBox15 = new System.Windows.Forms.TextBox();
+            this.label47 = new System.Windows.Forms.Label();
+            this.label48 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.groupBox4.SuspendLayout();
@@ -537,6 +540,9 @@
             // 
             // tabPage2
             // 
+            this.tabPage2.Controls.Add(this.label48);
+            this.tabPage2.Controls.Add(this.label47);
+            this.tabPage2.Controls.Add(this.textBox15);
             this.tabPage2.Controls.Add(this.label46);
             this.tabPage2.Controls.Add(this.textBox14);
             this.tabPage2.Controls.Add(this.textBox7);
@@ -569,6 +575,22 @@
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "GENERATE BILL";
             this.tabPage2.UseVisualStyleBackColor = true;
+            // 
+            // label46
+            // 
+            this.label46.AutoSize = true;
+            this.label46.Location = new System.Drawing.Point(848, 62);
+            this.label46.Name = "label46";
+            this.label46.Size = new System.Drawing.Size(64, 20);
+            this.label46.TabIndex = 49;
+            this.label46.Text = "EMP ID";
+            // 
+            // textBox14
+            // 
+            this.textBox14.Location = new System.Drawing.Point(928, 57);
+            this.textBox14.Name = "textBox14";
+            this.textBox14.Size = new System.Drawing.Size(108, 26);
+            this.textBox14.TabIndex = 48;
             // 
             // textBox7
             // 
@@ -1297,21 +1319,31 @@
             this.textBox13.Size = new System.Drawing.Size(123, 26);
             this.textBox13.TabIndex = 5;
             // 
-            // textBox14
+            // textBox15
             // 
-            this.textBox14.Location = new System.Drawing.Point(928, 57);
-            this.textBox14.Name = "textBox14";
-            this.textBox14.Size = new System.Drawing.Size(108, 26);
-            this.textBox14.TabIndex = 48;
+            this.textBox15.Location = new System.Drawing.Point(151, 561);
+            this.textBox15.Name = "textBox15";
+            this.textBox15.Size = new System.Drawing.Size(90, 26);
+            this.textBox15.TabIndex = 50;
+            this.textBox15.Text = "referance";
             // 
-            // label46
+            // label47
             // 
-            this.label46.AutoSize = true;
-            this.label46.Location = new System.Drawing.Point(848, 62);
-            this.label46.Name = "label46";
-            this.label46.Size = new System.Drawing.Size(64, 20);
-            this.label46.TabIndex = 49;
-            this.label46.Text = "EMP ID";
+            this.label47.AutoSize = true;
+            this.label47.Location = new System.Drawing.Point(363, 466);
+            this.label47.Name = "label47";
+            this.label47.Size = new System.Drawing.Size(73, 20);
+            this.label47.TabIndex = 51;
+            this.label47.Text = "discount:";
+            // 
+            // label48
+            // 
+            this.label48.AutoSize = true;
+            this.label48.Location = new System.Drawing.Point(459, 469);
+            this.label48.Name = "label48";
+            this.label48.Size = new System.Drawing.Size(60, 20);
+            this.label48.TabIndex = 52;
+            this.label48.Text = "label48";
             // 
             // care
             // 
@@ -1469,6 +1501,9 @@
         private System.Windows.Forms.TextBox textBox13;
         private System.Windows.Forms.Label label46;
         private System.Windows.Forms.TextBox textBox14;
+        private System.Windows.Forms.TextBox textBox15;
+        private System.Windows.Forms.Label label48;
+        private System.Windows.Forms.Label label47;
     }
 }
 
