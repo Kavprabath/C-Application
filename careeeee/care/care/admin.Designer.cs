@@ -32,81 +32,85 @@
             this.button1 = new System.Windows.Forms.Button();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.button6 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
             this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label14 = new System.Windows.Forms.Label();
-            this.label15 = new System.Windows.Forms.Label();
-            this.label16 = new System.Windows.Forms.Label();
-            this.label17 = new System.Windows.Forms.Label();
-            this.label18 = new System.Windows.Forms.Label();
-            this.label19 = new System.Windows.Forms.Label();
-            this.label20 = new System.Windows.Forms.Label();
-            this.label21 = new System.Windows.Forms.Label();
-            this.label22 = new System.Windows.Forms.Label();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
             this.label23 = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.label12 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label22 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label21 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label20 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label19 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label18 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label17 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label16 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.label15 = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
+            this.label14 = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.label25 = new System.Windows.Forms.Label();
             this.label24 = new System.Windows.Forms.Label();
             this.textBox2 = new System.Windows.Forms.TextBox();
-            this.label25 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
             this.tabPage3 = new System.Windows.Forms.TabPage();
-            this.label26 = new System.Windows.Forms.Label();
-            this.label27 = new System.Windows.Forms.Label();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
-            this.label28 = new System.Windows.Forms.Label();
-            this.label29 = new System.Windows.Forms.Label();
-            this.label30 = new System.Windows.Forms.Label();
-            this.label31 = new System.Windows.Forms.Label();
-            this.label32 = new System.Windows.Forms.Label();
             this.label33 = new System.Windows.Forms.Label();
+            this.label32 = new System.Windows.Forms.Label();
+            this.label31 = new System.Windows.Forms.Label();
+            this.label30 = new System.Windows.Forms.Label();
+            this.label29 = new System.Windows.Forms.Label();
+            this.label28 = new System.Windows.Forms.Label();
+            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.label27 = new System.Windows.Forms.Label();
+            this.label26 = new System.Windows.Forms.Label();
             this.tabPage4 = new System.Windows.Forms.TabPage();
-            this.label34 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.label46 = new System.Windows.Forms.Label();
+            this.label45 = new System.Windows.Forms.Label();
+            this.label44 = new System.Windows.Forms.Label();
+            this.label43 = new System.Windows.Forms.Label();
+            this.label42 = new System.Windows.Forms.Label();
+            this.label41 = new System.Windows.Forms.Label();
             this.label35 = new System.Windows.Forms.Label();
             this.label36 = new System.Windows.Forms.Label();
             this.label37 = new System.Windows.Forms.Label();
             this.label38 = new System.Windows.Forms.Label();
             this.label39 = new System.Windows.Forms.Label();
             this.label40 = new System.Windows.Forms.Label();
-            this.label41 = new System.Windows.Forms.Label();
-            this.label42 = new System.Windows.Forms.Label();
-            this.label43 = new System.Windows.Forms.Label();
-            this.label44 = new System.Windows.Forms.Label();
-            this.label45 = new System.Windows.Forms.Label();
-            this.label46 = new System.Windows.Forms.Label();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.label34 = new System.Windows.Forms.Label();
             this.tabPage5 = new System.Windows.Forms.TabPage();
-            this.label47 = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.button3 = new System.Windows.Forms.Button();
-            this.label48 = new System.Windows.Forms.Label();
-            this.label49 = new System.Windows.Forms.Label();
-            this.label50 = new System.Windows.Forms.Label();
-            this.label51 = new System.Windows.Forms.Label();
-            this.label52 = new System.Windows.Forms.Label();
             this.label53 = new System.Windows.Forms.Label();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
+            this.label52 = new System.Windows.Forms.Label();
+            this.label51 = new System.Windows.Forms.Label();
+            this.label50 = new System.Windows.Forms.Label();
+            this.label49 = new System.Windows.Forms.Label();
+            this.label48 = new System.Windows.Forms.Label();
+            this.button3 = new System.Windows.Forms.Button();
+            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.label47 = new System.Windows.Forms.Label();
+            this.button7 = new System.Windows.Forms.Button();
+            this.button8 = new System.Windows.Forms.Button();
+            this.button9 = new System.Windows.Forms.Button();
+            this.button10 = new System.Windows.Forms.Button();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
-            this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
+            this.groupBox1.SuspendLayout();
             this.tabPage3.SuspendLayout();
             this.tabPage4.SuspendLayout();
             this.tabPage5.SuspendLayout();
@@ -164,6 +168,36 @@
             this.tabPage1.Text = "HOME";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
+            // button6
+            // 
+            this.button6.Location = new System.Drawing.Point(63, 469);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(253, 100);
+            this.button6.TabIndex = 10;
+            this.button6.Text = "SALARY CALCULATOR";
+            this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
+            // 
+            // button5
+            // 
+            this.button5.Location = new System.Drawing.Point(59, 356);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(271, 81);
+            this.button5.TabIndex = 9;
+            this.button5.Text = "MONTHLY REPORT";
+            this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
+            // 
+            // button4
+            // 
+            this.button4.Location = new System.Drawing.Point(52, 220);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(279, 96);
+            this.button4.TabIndex = 8;
+            this.button4.Text = "SALSE PROFIT CALCULATOR";
+            this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
+            // 
             // tabPage2
             // 
             this.tabPage2.Controls.Add(this.groupBox2);
@@ -176,237 +210,9 @@
             this.tabPage2.Text = "EMPLOYEE DETAILS";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.BackColor = System.Drawing.Color.Transparent;
-            this.label11.Location = new System.Drawing.Point(13, 522);
-            this.label11.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(87, 20);
-            this.label11.TabIndex = 77;
-            this.label11.Text = "JOB TITLE";
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.BackColor = System.Drawing.Color.Transparent;
-            this.label10.Location = new System.Drawing.Point(18, 562);
-            this.label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(79, 20);
-            this.label10.TabIndex = 76;
-            this.label10.Text = "GENDER";
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.BackColor = System.Drawing.Color.Transparent;
-            this.label9.Location = new System.Drawing.Point(19, 471);
-            this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(62, 20);
-            this.label9.TabIndex = 75;
-            this.label9.Text = "E MAIL";
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.BackColor = System.Drawing.Color.Transparent;
-            this.label7.Location = new System.Drawing.Point(18, 360);
-            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(110, 20);
-            this.label7.TabIndex = 74;
-            this.label7.Text = "CONTACT NO";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.BackColor = System.Drawing.Color.Transparent;
-            this.label6.Location = new System.Drawing.Point(18, 280);
-            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(89, 20);
-            this.label6.TabIndex = 73;
-            this.label6.Text = "ADDRESS";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.BackColor = System.Drawing.Color.Transparent;
-            this.label5.Location = new System.Drawing.Point(18, 234);
-            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(63, 20);
-            this.label5.TabIndex = 72;
-            this.label5.Text = "NIC NO";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.BackColor = System.Drawing.Color.Transparent;
-            this.label4.Location = new System.Drawing.Point(18, 423);
-            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(103, 20);
-            this.label4.TabIndex = 71;
-            this.label4.Text = "PASSWORD";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.Color.Transparent;
-            this.label3.Location = new System.Drawing.Point(18, 188);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(105, 20);
-            this.label3.TabIndex = 70;
-            this.label3.Text = "USER NAME";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Location = new System.Drawing.Point(18, 137);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(99, 20);
-            this.label2.TabIndex = 69;
-            this.label2.Text = "FULL NAME";
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(151, 99);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(60, 20);
-            this.label13.TabIndex = 80;
-            this.label13.Text = "label13";
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(43, 91);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(64, 20);
-            this.label12.TabIndex = 79;
-            this.label12.Text = "EMP ID";
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(150, 129);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(51, 20);
-            this.label1.TabIndex = 81;
-            this.label1.Text = "label1";
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(163, 191);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(51, 20);
-            this.label8.TabIndex = 82;
-            this.label8.Text = "label8";
-            // 
-            // label14
-            // 
-            this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(119, 247);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(60, 20);
-            this.label14.TabIndex = 83;
-            this.label14.Text = "label14";
-            // 
-            // label15
-            // 
-            this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(135, 288);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(60, 20);
-            this.label15.TabIndex = 84;
-            this.label15.Text = "label15";
-            // 
-            // label16
-            // 
-            this.label16.AutoSize = true;
-            this.label16.Location = new System.Drawing.Point(141, 379);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(60, 20);
-            this.label16.TabIndex = 85;
-            this.label16.Text = "label16";
-            // 
-            // label17
-            // 
-            this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(159, 421);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(60, 20);
-            this.label17.TabIndex = 86;
-            this.label17.Text = "label17";
-            // 
-            // label18
-            // 
-            this.label18.AutoSize = true;
-            this.label18.Location = new System.Drawing.Point(149, 481);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(60, 20);
-            this.label18.TabIndex = 87;
-            this.label18.Text = "label18";
-            // 
-            // label19
-            // 
-            this.label19.AutoSize = true;
-            this.label19.Location = new System.Drawing.Point(155, 523);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(60, 20);
-            this.label19.TabIndex = 88;
-            this.label19.Text = "label19";
-            // 
-            // label20
-            // 
-            this.label20.AutoSize = true;
-            this.label20.Location = new System.Drawing.Point(147, 565);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(60, 20);
-            this.label20.TabIndex = 89;
-            this.label20.Text = "label20";
-            // 
-            // label21
-            // 
-            this.label21.AutoSize = true;
-            this.label21.Location = new System.Drawing.Point(19, 610);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(74, 20);
-            this.label21.TabIndex = 90;
-            this.label21.Text = "SALARY";
-            // 
-            // label22
-            // 
-            this.label22.AutoSize = true;
-            this.label22.Location = new System.Drawing.Point(141, 612);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(60, 20);
-            this.label22.TabIndex = 91;
-            this.label22.Text = "label22";
-            // 
-            // groupBox1
-            // 
-            this.groupBox1.Controls.Add(this.textBox3);
-            this.groupBox1.Controls.Add(this.label25);
-            this.groupBox1.Controls.Add(this.label24);
-            this.groupBox1.Controls.Add(this.textBox2);
-            this.groupBox1.Location = new System.Drawing.Point(469, 30);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(441, 169);
-            this.groupBox1.TabIndex = 92;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "ADD OR CHANGE SALARY";
-            // 
             // groupBox2
             // 
+            this.groupBox2.Controls.Add(this.button7);
             this.groupBox2.Controls.Add(this.label23);
             this.groupBox2.Controls.Add(this.textBox1);
             this.groupBox2.Controls.Add(this.label12);
@@ -438,13 +244,6 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "EMP DETAILS";
             // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(136, 27);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(111, 26);
-            this.textBox1.TabIndex = 92;
-            // 
             // label23
             // 
             this.label23.AutoSize = true;
@@ -453,6 +252,259 @@
             this.label23.Size = new System.Drawing.Size(64, 20);
             this.label23.TabIndex = 93;
             this.label23.Text = "EMP ID";
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(136, 27);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(111, 26);
+            this.textBox1.TabIndex = 92;
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Location = new System.Drawing.Point(43, 91);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(64, 20);
+            this.label12.TabIndex = 79;
+            this.label12.Text = "EMP ID";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Transparent;
+            this.label2.Location = new System.Drawing.Point(18, 137);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(99, 20);
+            this.label2.TabIndex = 69;
+            this.label2.Text = "FULL NAME";
+            // 
+            // label22
+            // 
+            this.label22.AutoSize = true;
+            this.label22.Location = new System.Drawing.Point(141, 612);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(60, 20);
+            this.label22.TabIndex = 91;
+            this.label22.Text = "label22";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.Transparent;
+            this.label3.Location = new System.Drawing.Point(18, 188);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(105, 20);
+            this.label3.TabIndex = 70;
+            this.label3.Text = "USER NAME";
+            // 
+            // label21
+            // 
+            this.label21.AutoSize = true;
+            this.label21.Location = new System.Drawing.Point(19, 610);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(74, 20);
+            this.label21.TabIndex = 90;
+            this.label21.Text = "SALARY";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.Color.Transparent;
+            this.label4.Location = new System.Drawing.Point(18, 423);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(103, 20);
+            this.label4.TabIndex = 71;
+            this.label4.Text = "PASSWORD";
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.Location = new System.Drawing.Point(147, 565);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(60, 20);
+            this.label20.TabIndex = 89;
+            this.label20.Text = "label20";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.BackColor = System.Drawing.Color.Transparent;
+            this.label5.Location = new System.Drawing.Point(18, 234);
+            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(63, 20);
+            this.label5.TabIndex = 72;
+            this.label5.Text = "NIC NO";
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.Location = new System.Drawing.Point(155, 523);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(60, 20);
+            this.label19.TabIndex = 88;
+            this.label19.Text = "label19";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.BackColor = System.Drawing.Color.Transparent;
+            this.label6.Location = new System.Drawing.Point(18, 280);
+            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(89, 20);
+            this.label6.TabIndex = 73;
+            this.label6.Text = "ADDRESS";
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.Location = new System.Drawing.Point(149, 481);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(60, 20);
+            this.label18.TabIndex = 87;
+            this.label18.Text = "label18";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.BackColor = System.Drawing.Color.Transparent;
+            this.label7.Location = new System.Drawing.Point(18, 360);
+            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(110, 20);
+            this.label7.TabIndex = 74;
+            this.label7.Text = "CONTACT NO";
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Location = new System.Drawing.Point(159, 421);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(60, 20);
+            this.label17.TabIndex = 86;
+            this.label17.Text = "label17";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.BackColor = System.Drawing.Color.Transparent;
+            this.label9.Location = new System.Drawing.Point(19, 471);
+            this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(62, 20);
+            this.label9.TabIndex = 75;
+            this.label9.Text = "E MAIL";
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Location = new System.Drawing.Point(141, 379);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(60, 20);
+            this.label16.TabIndex = 85;
+            this.label16.Text = "label16";
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.BackColor = System.Drawing.Color.Transparent;
+            this.label10.Location = new System.Drawing.Point(18, 562);
+            this.label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(79, 20);
+            this.label10.TabIndex = 76;
+            this.label10.Text = "GENDER";
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Location = new System.Drawing.Point(135, 288);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(60, 20);
+            this.label15.TabIndex = 84;
+            this.label15.Text = "label15";
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.BackColor = System.Drawing.Color.Transparent;
+            this.label11.Location = new System.Drawing.Point(13, 522);
+            this.label11.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(87, 20);
+            this.label11.TabIndex = 77;
+            this.label11.Text = "JOB TITLE";
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Location = new System.Drawing.Point(119, 247);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(60, 20);
+            this.label14.TabIndex = 83;
+            this.label14.Text = "label14";
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Location = new System.Drawing.Point(151, 99);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(60, 20);
+            this.label13.TabIndex = 80;
+            this.label13.Text = "label13";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(163, 191);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(51, 20);
+            this.label8.TabIndex = 82;
+            this.label8.Text = "label8";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(150, 129);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(51, 20);
+            this.label1.TabIndex = 81;
+            this.label1.Text = "label1";
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.button8);
+            this.groupBox1.Controls.Add(this.textBox3);
+            this.groupBox1.Controls.Add(this.label25);
+            this.groupBox1.Controls.Add(this.label24);
+            this.groupBox1.Controls.Add(this.textBox2);
+            this.groupBox1.Location = new System.Drawing.Point(469, 30);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(441, 169);
+            this.groupBox1.TabIndex = 92;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "ADD OR CHANGE SALARY";
+            // 
+            // textBox3
+            // 
+            this.textBox3.Location = new System.Drawing.Point(169, 82);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(169, 26);
+            this.textBox3.TabIndex = 97;
+            // 
+            // label25
+            // 
+            this.label25.AutoSize = true;
+            this.label25.Location = new System.Drawing.Point(52, 92);
+            this.label25.Name = "label25";
+            this.label25.Size = new System.Drawing.Size(74, 20);
+            this.label25.TabIndex = 96;
+            this.label25.Text = "SALARY";
             // 
             // label24
             // 
@@ -470,24 +522,9 @@
             this.textBox2.Size = new System.Drawing.Size(111, 26);
             this.textBox2.TabIndex = 94;
             // 
-            // label25
-            // 
-            this.label25.AutoSize = true;
-            this.label25.Location = new System.Drawing.Point(52, 92);
-            this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(74, 20);
-            this.label25.TabIndex = 96;
-            this.label25.Text = "SALARY";
-            // 
-            // textBox3
-            // 
-            this.textBox3.Location = new System.Drawing.Point(169, 82);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(169, 26);
-            this.textBox3.TabIndex = 97;
-            // 
             // tabPage3
             // 
+            this.tabPage3.Controls.Add(this.button9);
             this.tabPage3.Controls.Add(this.label33);
             this.tabPage3.Controls.Add(this.label32);
             this.tabPage3.Controls.Add(this.label31);
@@ -506,14 +543,73 @@
             this.tabPage3.Text = "SALSE PROFIT CALCULATOR";
             this.tabPage3.UseVisualStyleBackColor = true;
             // 
-            // label26
+            // label33
             // 
-            this.label26.AutoSize = true;
-            this.label26.Location = new System.Drawing.Point(93, 43);
-            this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(56, 20);
-            this.label26.TabIndex = 0;
-            this.label26.Text = "FROM";
+            this.label33.AutoSize = true;
+            this.label33.Location = new System.Drawing.Point(360, 360);
+            this.label33.Name = "label33";
+            this.label33.Size = new System.Drawing.Size(60, 20);
+            this.label33.TabIndex = 9;
+            this.label33.Text = "label33";
+            // 
+            // label32
+            // 
+            this.label32.AutoSize = true;
+            this.label32.Location = new System.Drawing.Point(233, 350);
+            this.label32.Name = "label32";
+            this.label32.Size = new System.Drawing.Size(67, 20);
+            this.label32.TabIndex = 8;
+            this.label32.Text = "PROFIT";
+            // 
+            // label31
+            // 
+            this.label31.AutoSize = true;
+            this.label31.Location = new System.Drawing.Point(382, 294);
+            this.label31.Name = "label31";
+            this.label31.Size = new System.Drawing.Size(60, 20);
+            this.label31.TabIndex = 7;
+            this.label31.Text = "label31";
+            // 
+            // label30
+            // 
+            this.label30.AutoSize = true;
+            this.label30.Location = new System.Drawing.Point(387, 253);
+            this.label30.Name = "label30";
+            this.label30.Size = new System.Drawing.Size(60, 20);
+            this.label30.TabIndex = 6;
+            this.label30.Text = "label30";
+            // 
+            // label29
+            // 
+            this.label29.AutoSize = true;
+            this.label29.Location = new System.Drawing.Point(200, 291);
+            this.label29.Name = "label29";
+            this.label29.Size = new System.Drawing.Size(136, 20);
+            this.label29.TabIndex = 5;
+            this.label29.Text = "COST FOR SALE";
+            // 
+            // label28
+            // 
+            this.label28.AutoSize = true;
+            this.label28.Location = new System.Drawing.Point(200, 253);
+            this.label28.Name = "label28";
+            this.label28.Size = new System.Drawing.Size(127, 20);
+            this.label28.TabIndex = 4;
+            this.label28.Text = "TOTALE SALSE";
+            // 
+            // dateTimePicker2
+            // 
+            this.dateTimePicker2.Location = new System.Drawing.Point(575, 71);
+            this.dateTimePicker2.Name = "dateTimePicker2";
+            this.dateTimePicker2.Size = new System.Drawing.Size(236, 26);
+            this.dateTimePicker2.TabIndex = 3;
+            // 
+            // dateTimePicker1
+            // 
+            this.dateTimePicker1.Location = new System.Drawing.Point(184, 36);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(134, 26);
+            this.dateTimePicker1.TabIndex = 2;
             // 
             // label27
             // 
@@ -524,76 +620,18 @@
             this.label27.TabIndex = 1;
             this.label27.Text = "TO";
             // 
-            // dateTimePicker1
+            // label26
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(184, 36);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(134, 26);
-            this.dateTimePicker1.TabIndex = 2;
-            // 
-            // dateTimePicker2
-            // 
-            this.dateTimePicker2.Location = new System.Drawing.Point(575, 71);
-            this.dateTimePicker2.Name = "dateTimePicker2";
-            this.dateTimePicker2.Size = new System.Drawing.Size(236, 26);
-            this.dateTimePicker2.TabIndex = 3;
-            // 
-            // label28
-            // 
-            this.label28.AutoSize = true;
-            this.label28.Location = new System.Drawing.Point(144, 102);
-            this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(127, 20);
-            this.label28.TabIndex = 4;
-            this.label28.Text = "TOTALE SALSE";
-            // 
-            // label29
-            // 
-            this.label29.AutoSize = true;
-            this.label29.Location = new System.Drawing.Point(144, 140);
-            this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(136, 20);
-            this.label29.TabIndex = 5;
-            this.label29.Text = "COST FOR SALE";
-            // 
-            // label30
-            // 
-            this.label30.AutoSize = true;
-            this.label30.Location = new System.Drawing.Point(331, 102);
-            this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(60, 20);
-            this.label30.TabIndex = 6;
-            this.label30.Text = "label30";
-            // 
-            // label31
-            // 
-            this.label31.AutoSize = true;
-            this.label31.Location = new System.Drawing.Point(326, 143);
-            this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(60, 20);
-            this.label31.TabIndex = 7;
-            this.label31.Text = "label31";
-            // 
-            // label32
-            // 
-            this.label32.AutoSize = true;
-            this.label32.Location = new System.Drawing.Point(177, 199);
-            this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(67, 20);
-            this.label32.TabIndex = 8;
-            this.label32.Text = "PROFIT";
-            // 
-            // label33
-            // 
-            this.label33.AutoSize = true;
-            this.label33.Location = new System.Drawing.Point(304, 209);
-            this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(60, 20);
-            this.label33.TabIndex = 9;
-            this.label33.Text = "label33";
+            this.label26.AutoSize = true;
+            this.label26.Location = new System.Drawing.Point(93, 43);
+            this.label26.Name = "label26";
+            this.label26.Size = new System.Drawing.Size(56, 20);
+            this.label26.TabIndex = 0;
+            this.label26.Text = "FROM";
             // 
             // tabPage4
             // 
+            this.tabPage4.Controls.Add(this.button10);
             this.tabPage4.Controls.Add(this.label46);
             this.tabPage4.Controls.Add(this.label45);
             this.tabPage4.Controls.Add(this.label44);
@@ -616,21 +654,59 @@
             this.tabPage4.Text = "MONTHLY REPORT";
             this.tabPage4.UseVisualStyleBackColor = true;
             // 
-            // label34
+            // label46
             // 
-            this.label34.AutoSize = true;
-            this.label34.Location = new System.Drawing.Point(101, 38);
-            this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(66, 20);
-            this.label34.TabIndex = 0;
-            this.label34.Text = "MONTH";
+            this.label46.AutoSize = true;
+            this.label46.Location = new System.Drawing.Point(283, 289);
+            this.label46.Name = "label46";
+            this.label46.Size = new System.Drawing.Size(60, 20);
+            this.label46.TabIndex = 21;
+            this.label46.Text = "label46";
             // 
-            // textBox4
+            // label45
             // 
-            this.textBox4.Location = new System.Drawing.Point(209, 41);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(65, 26);
-            this.textBox4.TabIndex = 1;
+            this.label45.AutoSize = true;
+            this.label45.Location = new System.Drawing.Point(115, 277);
+            this.label45.Name = "label45";
+            this.label45.Size = new System.Drawing.Size(74, 20);
+            this.label45.TabIndex = 20;
+            this.label45.Text = "COMMIS";
+            // 
+            // label44
+            // 
+            this.label44.AutoSize = true;
+            this.label44.Location = new System.Drawing.Point(270, 242);
+            this.label44.Name = "label44";
+            this.label44.Size = new System.Drawing.Size(60, 20);
+            this.label44.TabIndex = 19;
+            this.label44.Text = "label44";
+            // 
+            // label43
+            // 
+            this.label43.AutoSize = true;
+            this.label43.Location = new System.Drawing.Point(102, 226);
+            this.label43.Name = "label43";
+            this.label43.Size = new System.Drawing.Size(127, 20);
+            this.label43.TabIndex = 18;
+            this.label43.Text = "BASIC SALARY";
+            // 
+            // label42
+            // 
+            this.label42.AutoSize = true;
+            this.label42.Location = new System.Drawing.Point(280, 212);
+            this.label42.Name = "label42";
+            this.label42.Size = new System.Drawing.Size(60, 20);
+            this.label42.TabIndex = 17;
+            this.label42.Text = "label42";
+            // 
+            // label41
+            // 
+            this.label41.AutoSize = true;
+            this.label41.Location = new System.Drawing.Point(110, 194);
+            this.label41.Name = "label41";
+            this.label41.Size = new System.Drawing.Size(96, 20);
+            this.label41.TabIndex = 16;
+            this.label41.Text = "EXPENCES";
             // 
             // label35
             // 
@@ -686,59 +762,21 @@
             this.label40.TabIndex = 10;
             this.label40.Text = "TOTALE SALSE";
             // 
-            // label41
+            // textBox4
             // 
-            this.label41.AutoSize = true;
-            this.label41.Location = new System.Drawing.Point(110, 194);
-            this.label41.Name = "label41";
-            this.label41.Size = new System.Drawing.Size(96, 20);
-            this.label41.TabIndex = 16;
-            this.label41.Text = "EXPENCES";
+            this.textBox4.Location = new System.Drawing.Point(209, 41);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(65, 26);
+            this.textBox4.TabIndex = 1;
             // 
-            // label42
+            // label34
             // 
-            this.label42.AutoSize = true;
-            this.label42.Location = new System.Drawing.Point(280, 212);
-            this.label42.Name = "label42";
-            this.label42.Size = new System.Drawing.Size(60, 20);
-            this.label42.TabIndex = 17;
-            this.label42.Text = "label42";
-            // 
-            // label43
-            // 
-            this.label43.AutoSize = true;
-            this.label43.Location = new System.Drawing.Point(102, 226);
-            this.label43.Name = "label43";
-            this.label43.Size = new System.Drawing.Size(127, 20);
-            this.label43.TabIndex = 18;
-            this.label43.Text = "BASIC SALARY";
-            // 
-            // label44
-            // 
-            this.label44.AutoSize = true;
-            this.label44.Location = new System.Drawing.Point(270, 242);
-            this.label44.Name = "label44";
-            this.label44.Size = new System.Drawing.Size(60, 20);
-            this.label44.TabIndex = 19;
-            this.label44.Text = "label44";
-            // 
-            // label45
-            // 
-            this.label45.AutoSize = true;
-            this.label45.Location = new System.Drawing.Point(115, 277);
-            this.label45.Name = "label45";
-            this.label45.Size = new System.Drawing.Size(74, 20);
-            this.label45.TabIndex = 20;
-            this.label45.Text = "COMMIS";
-            // 
-            // label46
-            // 
-            this.label46.AutoSize = true;
-            this.label46.Location = new System.Drawing.Point(283, 289);
-            this.label46.Name = "label46";
-            this.label46.Size = new System.Drawing.Size(60, 20);
-            this.label46.TabIndex = 21;
-            this.label46.Text = "label46";
+            this.label34.AutoSize = true;
+            this.label34.Location = new System.Drawing.Point(101, 38);
+            this.label34.Name = "label34";
+            this.label34.Size = new System.Drawing.Size(66, 20);
+            this.label34.TabIndex = 0;
+            this.label34.Text = "MONTH";
             // 
             // tabPage5
             // 
@@ -759,66 +797,14 @@
             this.tabPage5.Text = "SALARY CALCULATOR";
             this.tabPage5.UseVisualStyleBackColor = true;
             // 
-            // label47
+            // label53
             // 
-            this.label47.AutoSize = true;
-            this.label47.Location = new System.Drawing.Point(113, 90);
-            this.label47.Name = "label47";
-            this.label47.Size = new System.Drawing.Size(64, 20);
-            this.label47.TabIndex = 0;
-            this.label47.Text = "EMP ID";
-            // 
-            // textBox5
-            // 
-            this.textBox5.Location = new System.Drawing.Point(220, 99);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(130, 26);
-            this.textBox5.TabIndex = 1;
-            // 
-            // button3
-            // 
-            this.button3.Location = new System.Drawing.Point(117, 131);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(222, 137);
-            this.button3.TabIndex = 2;
-            this.button3.Text = "CALCULATE";
-            this.button3.UseVisualStyleBackColor = true;
-            // 
-            // label48
-            // 
-            this.label48.AutoSize = true;
-            this.label48.Location = new System.Drawing.Point(113, 320);
-            this.label48.Name = "label48";
-            this.label48.Size = new System.Drawing.Size(58, 20);
-            this.label48.TabIndex = 3;
-            this.label48.Text = "BASIC";
-            // 
-            // label49
-            // 
-            this.label49.AutoSize = true;
-            this.label49.Location = new System.Drawing.Point(212, 318);
-            this.label49.Name = "label49";
-            this.label49.Size = new System.Drawing.Size(60, 20);
-            this.label49.TabIndex = 4;
-            this.label49.Text = "label49";
-            // 
-            // label50
-            // 
-            this.label50.AutoSize = true;
-            this.label50.Location = new System.Drawing.Point(148, 363);
-            this.label50.Name = "label50";
-            this.label50.Size = new System.Drawing.Size(74, 20);
-            this.label50.TabIndex = 5;
-            this.label50.Text = "COMMIS";
-            // 
-            // label51
-            // 
-            this.label51.AutoSize = true;
-            this.label51.Location = new System.Drawing.Point(252, 370);
-            this.label51.Name = "label51";
-            this.label51.Size = new System.Drawing.Size(60, 20);
-            this.label51.TabIndex = 6;
-            this.label51.Text = "label51";
+            this.label53.AutoSize = true;
+            this.label53.Location = new System.Drawing.Point(253, 400);
+            this.label53.Name = "label53";
+            this.label53.Size = new System.Drawing.Size(60, 20);
+            this.label53.TabIndex = 8;
+            this.label53.Text = "label53";
             // 
             // label52
             // 
@@ -829,44 +815,102 @@
             this.label52.TabIndex = 7;
             this.label52.Text = "TOTAL";
             // 
-            // label53
+            // label51
             // 
-            this.label53.AutoSize = true;
-            this.label53.Location = new System.Drawing.Point(253, 400);
-            this.label53.Name = "label53";
-            this.label53.Size = new System.Drawing.Size(60, 20);
-            this.label53.TabIndex = 8;
-            this.label53.Text = "label53";
+            this.label51.AutoSize = true;
+            this.label51.Location = new System.Drawing.Point(252, 370);
+            this.label51.Name = "label51";
+            this.label51.Size = new System.Drawing.Size(60, 20);
+            this.label51.TabIndex = 6;
+            this.label51.Text = "label51";
             // 
-            // button4
+            // label50
             // 
-            this.button4.Location = new System.Drawing.Point(52, 220);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(279, 96);
-            this.button4.TabIndex = 8;
-            this.button4.Text = "SALSE PROFIT CALCULATOR";
-            this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
+            this.label50.AutoSize = true;
+            this.label50.Location = new System.Drawing.Point(148, 363);
+            this.label50.Name = "label50";
+            this.label50.Size = new System.Drawing.Size(74, 20);
+            this.label50.TabIndex = 5;
+            this.label50.Text = "COMMIS";
             // 
-            // button5
+            // label49
             // 
-            this.button5.Location = new System.Drawing.Point(59, 356);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(271, 81);
-            this.button5.TabIndex = 9;
-            this.button5.Text = "MONTHLY REPORT";
-            this.button5.UseVisualStyleBackColor = true;
-            this.button5.Click += new System.EventHandler(this.button5_Click);
+            this.label49.AutoSize = true;
+            this.label49.Location = new System.Drawing.Point(212, 318);
+            this.label49.Name = "label49";
+            this.label49.Size = new System.Drawing.Size(60, 20);
+            this.label49.TabIndex = 4;
+            this.label49.Text = "label49";
             // 
-            // button6
+            // label48
             // 
-            this.button6.Location = new System.Drawing.Point(63, 469);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(253, 100);
-            this.button6.TabIndex = 10;
-            this.button6.Text = "SALARY CALCULATOR";
-            this.button6.UseVisualStyleBackColor = true;
-            this.button6.Click += new System.EventHandler(this.button6_Click);
+            this.label48.AutoSize = true;
+            this.label48.Location = new System.Drawing.Point(113, 320);
+            this.label48.Name = "label48";
+            this.label48.Size = new System.Drawing.Size(58, 20);
+            this.label48.TabIndex = 3;
+            this.label48.Text = "BASIC";
+            // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(117, 131);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(222, 137);
+            this.button3.TabIndex = 2;
+            this.button3.Text = "CALCULATE";
+            this.button3.UseVisualStyleBackColor = true;
+            // 
+            // textBox5
+            // 
+            this.textBox5.Location = new System.Drawing.Point(220, 99);
+            this.textBox5.Name = "textBox5";
+            this.textBox5.Size = new System.Drawing.Size(130, 26);
+            this.textBox5.TabIndex = 1;
+            // 
+            // label47
+            // 
+            this.label47.AutoSize = true;
+            this.label47.Location = new System.Drawing.Point(113, 90);
+            this.label47.Name = "label47";
+            this.label47.Size = new System.Drawing.Size(64, 20);
+            this.label47.TabIndex = 0;
+            this.label47.Text = "EMP ID";
+            // 
+            // button7
+            // 
+            this.button7.Location = new System.Drawing.Point(49, 60);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(151, 32);
+            this.button7.TabIndex = 94;
+            this.button7.Text = "SEARCH";
+            this.button7.UseVisualStyleBackColor = true;
+            // 
+            // button8
+            // 
+            this.button8.Location = new System.Drawing.Point(163, 125);
+            this.button8.Name = "button8";
+            this.button8.Size = new System.Drawing.Size(142, 36);
+            this.button8.TabIndex = 98;
+            this.button8.Text = "UPDATE";
+            this.button8.UseVisualStyleBackColor = true;
+            // 
+            // button9
+            // 
+            this.button9.Location = new System.Drawing.Point(318, 128);
+            this.button9.Name = "button9";
+            this.button9.Size = new System.Drawing.Size(162, 47);
+            this.button9.TabIndex = 10;
+            this.button9.Text = "CALCULATE";
+            this.button9.UseVisualStyleBackColor = true;
+            // 
+            // button10
+            // 
+            this.button10.Location = new System.Drawing.Point(129, 65);
+            this.button10.Name = "button10";
+            this.button10.Size = new System.Drawing.Size(111, 45);
+            this.button10.TabIndex = 22;
+            this.button10.Text = "CALCULATE";
+            this.button10.UseVisualStyleBackColor = true;
             // 
             // admin
             // 
@@ -879,10 +923,10 @@
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.tabPage2.ResumeLayout(false);
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
             this.tabPage3.ResumeLayout(false);
             this.tabPage3.PerformLayout();
             this.tabPage4.ResumeLayout(false);
@@ -969,5 +1013,9 @@
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.TextBox textBox5;
         private System.Windows.Forms.Label label47;
+        private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.Button button8;
+        private System.Windows.Forms.Button button9;
+        private System.Windows.Forms.Button button10;
     }
 }

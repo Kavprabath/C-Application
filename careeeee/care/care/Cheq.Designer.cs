@@ -572,9 +572,9 @@
             this.label16.AutoSize = true;
             this.label16.Location = new System.Drawing.Point(77, 392);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(87, 20);
+            this.label16.Size = new System.Drawing.Size(116, 20);
             this.label16.TabIndex = 19;
-            this.label16.Text = "BUYER ID";
+            this.label16.Text = "BUYER NAME";
             // 
             // label17
             // 
@@ -923,7 +923,7 @@
             // label35
             // 
             this.label35.AutoSize = true;
-            this.label35.Location = new System.Drawing.Point(199, 379);
+            this.label35.Location = new System.Drawing.Point(236, 388);
             this.label35.Name = "label35";
             this.label35.Size = new System.Drawing.Size(60, 20);
             this.label35.TabIndex = 44;
@@ -988,9 +988,9 @@
             this.label42.AutoSize = true;
             this.label42.Location = new System.Drawing.Point(80, 388);
             this.label42.Name = "label42";
-            this.label42.Size = new System.Drawing.Size(121, 20);
+            this.label42.Size = new System.Drawing.Size(150, 20);
             this.label42.TabIndex = 37;
-            this.label42.Text = "CUSTOMER ID";
+            this.label42.Text = "CUSTOMER NAME";
             // 
             // label43
             // 

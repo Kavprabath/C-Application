@@ -42,5 +42,10 @@ namespace care
             Cheq cheqdetails = new Cheq();
             cheqdetails.Visible = true;
         }
+
+        private void tabControl1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
