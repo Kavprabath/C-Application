@@ -43,12 +43,12 @@ namespace care
 
         private void button3_Click(object sender, EventArgs e)
         {
-            HOME.SelectedTab = tabPage4;
+           
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-            HOME.SelectedTab = tabPage5;
+
         }
 
 
@@ -85,6 +85,27 @@ namespace care
         {
             buyer BUYdetails = new buyer();
             BUYdetails.Visible = true;
+        }
+
+        private void care_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Cheq cheqdetails = new Cheq();
+            cheqdetails.Visible = true;
+        }
+
+        private void tabPage1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

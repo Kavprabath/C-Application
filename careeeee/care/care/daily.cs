@@ -36,5 +36,11 @@ namespace care
         {
             tabControl1.SelectedTab = tabPage5;
         }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Cheq cheqdetails = new Cheq();
+            cheqdetails.Visible = true;
+        }
     }
 }
