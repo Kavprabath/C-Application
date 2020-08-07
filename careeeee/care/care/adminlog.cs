@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace App
+namespace care
 {
     public partial class adminlog : Form
     {
@@ -21,27 +21,17 @@ namespace App
         {
             String adpass;
             adpass = textBox1.Text;
-            
-            if (adpass == "Admin@123")
-            { 
+
+            if (adpass == "a")
+            {
                 admin ADMINform = new admin();
-                 ADMINform.Visible = true;
-                this.Hide();
+                ADMINform.Visible = true;
+                this.Close();
             }
             else
             {
                 MessageBox.Show("Invalid Admin Password");
             }
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

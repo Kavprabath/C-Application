@@ -54,6 +54,7 @@
             this.textBox1.PasswordChar = '*';
             this.textBox1.Size = new System.Drawing.Size(266, 26);
             this.textBox1.TabIndex = 1;
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // label1
             // 
@@ -66,8 +67,9 @@
             this.label1.Size = new System.Drawing.Size(444, 33);
             this.label1.TabIndex = 2;
             this.label1.Text = "ENTER ADMINISRTRATER KEY";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
-            // Form3
+            // adminlog
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -79,7 +81,7 @@
             this.Controls.Add(this.button1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.Name = "Form3";
+            this.Name = "adminlog";
             this.Text = "CARE DISTHIBUTION ADMIN";
             this.ResumeLayout(false);
             this.PerformLayout();

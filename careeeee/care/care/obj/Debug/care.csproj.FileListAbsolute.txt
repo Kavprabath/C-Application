@@ -1,0 +1,17 @@
+D:\Desktop\careeeee\care\care\bin\Debug\care.exe.config
+D:\Desktop\careeeee\care\care\bin\Debug\care.exe
+D:\Desktop\careeeee\care\care\bin\Debug\care.pdb
+D:\Desktop\careeeee\care\care\obj\Debug\care.csprojAssemblyReference.cache
+D:\Desktop\careeeee\care\care\obj\Debug\care.admin.resources
+D:\Desktop\careeeee\care\care\obj\Debug\care.adminlog.resources
+D:\Desktop\careeeee\care\care\obj\Debug\care.care.resources
+D:\Desktop\careeeee\care\care\obj\Debug\care.login.resources
+D:\Desktop\careeeee\care\care\obj\Debug\care.Properties.Resources.resources
+D:\Desktop\careeeee\care\care\obj\Debug\care.signup.resources
+D:\Desktop\careeeee\care\care\obj\Debug\care.csproj.GenerateResource.cache
+D:\Desktop\careeeee\care\care\obj\Debug\care.csproj.CoreCompileInputs.cache
+D:\Desktop\careeeee\care\care\obj\Debug\care.exe
+D:\Desktop\careeeee\care\care\obj\Debug\care.pdb
+D:\Desktop\careeeee\care\care\obj\Debug\care.Cheq.resources
+D:\Desktop\careeeee\care\care\obj\Debug\care.daily.resources
+D:\Desktop\careeeee\care\care\obj\Debug\care.buyer.resources
