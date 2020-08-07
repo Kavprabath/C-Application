@@ -23,5 +23,28 @@ namespace care
             signupform.Visible = true;
             this.Hide();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            tabControl1.SelectedTab = tabPage2;
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            tabControl1.SelectedTab = tabPage3;
+
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            tabControl1.SelectedTab = tabPage4;
+
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            tabControl1.SelectedTab = tabPage5;
+
+        }
     }
 }

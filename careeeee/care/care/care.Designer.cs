@@ -33,6 +33,13 @@
             this.label13 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.itemid = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.itemname = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.price = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.qty = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.stoc = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.subtot = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.REFERANCE = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
@@ -58,6 +65,11 @@
             this.button1 = new System.Windows.Forms.Button();
             this.HOME = new System.Windows.Forms.TabControl();
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.linkLabel2 = new System.Windows.Forms.LinkLabel();
+            this.CASH = new System.Windows.Forms.Label();
+            this.button10 = new System.Windows.Forms.Button();
             this.label15 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
@@ -67,42 +79,8 @@
             this.label5 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.tabPage3 = new System.Windows.Forms.TabPage();
-            this.tabPage6 = new System.Windows.Forms.TabPage();
-            this.tabPage7 = new System.Windows.Forms.TabPage();
-            this.button10 = new System.Windows.Forms.Button();
-            this.groupBox5 = new System.Windows.Forms.GroupBox();
-            this.label20 = new System.Windows.Forms.Label();
-            this.label21 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.groupBox6 = new System.Windows.Forms.GroupBox();
-            this.groupBox7 = new System.Windows.Forms.GroupBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.label16 = new System.Windows.Forms.Label();
-            this.label17 = new System.Windows.Forms.Label();
-            this.label18 = new System.Windows.Forms.Label();
-            this.label19 = new System.Windows.Forms.Label();
-            this.label22 = new System.Windows.Forms.Label();
-            this.label23 = new System.Windows.Forms.Label();
-            this.label24 = new System.Windows.Forms.Label();
-            this.label25 = new System.Windows.Forms.Label();
-            this.label26 = new System.Windows.Forms.Label();
-            this.dataGridView2 = new System.Windows.Forms.DataGridView();
-            this.BILLNO = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.DATE = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.AMOUNT = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.REF = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.itemid = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.itemname = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.price = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.qty = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.stoc = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.subtot = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.REFERANCE = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.CASH = new System.Windows.Forms.Label();
-            this.linkLabel2 = new System.Windows.Forms.LinkLabel();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.label27 = new System.Windows.Forms.Label();
+            this.textBox8 = new System.Windows.Forms.TextBox();
             this.dataGridView3 = new System.Windows.Forms.DataGridView();
             this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -111,37 +89,61 @@
             this.dataGridViewTextBoxColumn5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.label27 = new System.Windows.Forms.Label();
-            this.label28 = new System.Windows.Forms.Label();
-            this.label29 = new System.Windows.Forms.Label();
-            this.label30 = new System.Windows.Forms.Label();
-            this.label31 = new System.Windows.Forms.Label();
-            this.label32 = new System.Windows.Forms.Label();
-            this.label33 = new System.Windows.Forms.Label();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
-            this.radioButton3 = new System.Windows.Forms.RadioButton();
-            this.textBox9 = new System.Windows.Forms.TextBox();
-            this.textBox10 = new System.Windows.Forms.TextBox();
-            this.textBox11 = new System.Windows.Forms.TextBox();
+            this.dataGridView2 = new System.Windows.Forms.DataGridView();
+            this.BILLNO = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.DATE = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.AMOUNT = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.REF = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.label17 = new System.Windows.Forms.Label();
+            this.label18 = new System.Windows.Forms.Label();
+            this.label19 = new System.Windows.Forms.Label();
+            this.label22 = new System.Windows.Forms.Label();
+            this.label23 = new System.Windows.Forms.Label();
+            this.label24 = new System.Windows.Forms.Label();
+            this.label25 = new System.Windows.Forms.Label();
+            this.label26 = new System.Windows.Forms.Label();
+            this.groupBox5 = new System.Windows.Forms.GroupBox();
+            this.groupBox7 = new System.Windows.Forms.GroupBox();
+            this.label16 = new System.Windows.Forms.Label();
+            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.groupBox6 = new System.Windows.Forms.GroupBox();
+            this.label20 = new System.Windows.Forms.Label();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.label21 = new System.Windows.Forms.Label();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.tabPage6 = new System.Windows.Forms.TabPage();
             this.button3 = new System.Windows.Forms.Button();
-            this.groupBox8 = new System.Windows.Forms.GroupBox();
-            this.label34 = new System.Windows.Forms.Label();
-            this.textBox12 = new System.Windows.Forms.TextBox();
-            this.label35 = new System.Windows.Forms.Label();
-            this.textBox13 = new System.Windows.Forms.TextBox();
+            this.textBox11 = new System.Windows.Forms.TextBox();
+            this.textBox10 = new System.Windows.Forms.TextBox();
+            this.textBox9 = new System.Windows.Forms.TextBox();
+            this.radioButton3 = new System.Windows.Forms.RadioButton();
+            this.radioButton2 = new System.Windows.Forms.RadioButton();
+            this.radioButton1 = new System.Windows.Forms.RadioButton();
+            this.label33 = new System.Windows.Forms.Label();
+            this.label32 = new System.Windows.Forms.Label();
+            this.label31 = new System.Windows.Forms.Label();
+            this.label30 = new System.Windows.Forms.Label();
+            this.label29 = new System.Windows.Forms.Label();
+            this.label28 = new System.Windows.Forms.Label();
+            this.tabPage7 = new System.Windows.Forms.TabPage();
+            this.button4 = new System.Windows.Forms.Button();
+            this.label45 = new System.Windows.Forms.Label();
+            this.label44 = new System.Windows.Forms.Label();
+            this.label43 = new System.Windows.Forms.Label();
+            this.label42 = new System.Windows.Forms.Label();
             this.label36 = new System.Windows.Forms.Label();
             this.label37 = new System.Windows.Forms.Label();
             this.label38 = new System.Windows.Forms.Label();
             this.label39 = new System.Windows.Forms.Label();
             this.label40 = new System.Windows.Forms.Label();
             this.label41 = new System.Windows.Forms.Label();
-            this.label42 = new System.Windows.Forms.Label();
-            this.label43 = new System.Windows.Forms.Label();
-            this.label44 = new System.Windows.Forms.Label();
-            this.label45 = new System.Windows.Forms.Label();
-            this.button4 = new System.Windows.Forms.Button();
+            this.groupBox8 = new System.Windows.Forms.GroupBox();
+            this.label34 = new System.Windows.Forms.Label();
+            this.textBox12 = new System.Windows.Forms.TextBox();
+            this.label35 = new System.Windows.Forms.Label();
+            this.textBox13 = new System.Windows.Forms.TextBox();
+            this.textBox14 = new System.Windows.Forms.TextBox();
+            this.label46 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.groupBox4.SuspendLayout();
@@ -151,13 +153,13 @@
             this.HOME.SuspendLayout();
             this.tabPage2.SuspendLayout();
             this.tabPage3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
+            this.groupBox5.SuspendLayout();
+            this.groupBox7.SuspendLayout();
+            this.groupBox6.SuspendLayout();
             this.tabPage6.SuspendLayout();
             this.tabPage7.SuspendLayout();
-            this.groupBox5.SuspendLayout();
-            this.groupBox6.SuspendLayout();
-            this.groupBox7.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).BeginInit();
             this.groupBox8.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -212,13 +214,65 @@
             this.stoc,
             this.subtot,
             this.REFERANCE});
-            this.dataGridView1.Location = new System.Drawing.Point(33, 240);
+            this.dataGridView1.Location = new System.Drawing.Point(6, 240);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 62;
             this.dataGridView1.RowTemplate.Height = 28;
             this.dataGridView1.Size = new System.Drawing.Size(1090, 197);
             this.dataGridView1.TabIndex = 34;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
+            // 
+            // itemid
+            // 
+            this.itemid.HeaderText = "ITEM ID";
+            this.itemid.MinimumWidth = 8;
+            this.itemid.Name = "itemid";
+            this.itemid.Width = 150;
+            // 
+            // itemname
+            // 
+            this.itemname.HeaderText = "ITEM NAME";
+            this.itemname.MinimumWidth = 8;
+            this.itemname.Name = "itemname";
+            this.itemname.Width = 150;
+            // 
+            // price
+            // 
+            this.price.HeaderText = "PRICE";
+            this.price.MinimumWidth = 8;
+            this.price.Name = "price";
+            this.price.ReadOnly = true;
+            this.price.Width = 150;
+            // 
+            // qty
+            // 
+            this.qty.HeaderText = "Qty";
+            this.qty.MinimumWidth = 8;
+            this.qty.Name = "qty";
+            this.qty.Width = 150;
+            // 
+            // stoc
+            // 
+            this.stoc.HeaderText = "STOCK REMAIN";
+            this.stoc.MinimumWidth = 8;
+            this.stoc.Name = "stoc";
+            this.stoc.ReadOnly = true;
+            this.stoc.Width = 150;
+            // 
+            // subtot
+            // 
+            this.subtot.HeaderText = "SUB TOTAL";
+            this.subtot.MinimumWidth = 8;
+            this.subtot.Name = "subtot";
+            this.subtot.ReadOnly = true;
+            this.subtot.Width = 150;
+            // 
+            // REFERANCE
+            // 
+            this.REFERANCE.HeaderText = "REFERANCE";
+            this.REFERANCE.MinimumWidth = 8;
+            this.REFERANCE.Name = "REFERANCE";
+            this.REFERANCE.Width = 150;
             // 
             // groupBox1
             // 
@@ -483,6 +537,8 @@
             // 
             // tabPage2
             // 
+            this.tabPage2.Controls.Add(this.label46);
+            this.tabPage2.Controls.Add(this.textBox14);
             this.tabPage2.Controls.Add(this.textBox7);
             this.tabPage2.Controls.Add(this.textBox6);
             this.tabPage2.Controls.Add(this.linkLabel2);
@@ -513,6 +569,49 @@
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "GENERATE BILL";
             this.tabPage2.UseVisualStyleBackColor = true;
+            // 
+            // textBox7
+            // 
+            this.textBox7.Location = new System.Drawing.Point(233, 524);
+            this.textBox7.Name = "textBox7";
+            this.textBox7.Size = new System.Drawing.Size(62, 26);
+            this.textBox7.TabIndex = 47;
+            // 
+            // textBox6
+            // 
+            this.textBox6.Location = new System.Drawing.Point(231, 485);
+            this.textBox6.Name = "textBox6";
+            this.textBox6.Size = new System.Drawing.Size(65, 26);
+            this.textBox6.TabIndex = 46;
+            // 
+            // linkLabel2
+            // 
+            this.linkLabel2.AutoSize = true;
+            this.linkLabel2.Location = new System.Drawing.Point(138, 512);
+            this.linkLabel2.Name = "linkLabel2";
+            this.linkLabel2.Size = new System.Drawing.Size(55, 20);
+            this.linkLabel2.TabIndex = 45;
+            this.linkLabel2.TabStop = true;
+            this.linkLabel2.Text = "CHEQ";
+            this.linkLabel2.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel2_LinkClicked);
+            // 
+            // CASH
+            // 
+            this.CASH.AutoSize = true;
+            this.CASH.Location = new System.Drawing.Point(133, 483);
+            this.CASH.Name = "CASH";
+            this.CASH.Size = new System.Drawing.Size(54, 20);
+            this.CASH.TabIndex = 44;
+            this.CASH.Text = "CASH";
+            // 
+            // button10
+            // 
+            this.button10.Location = new System.Drawing.Point(669, 461);
+            this.button10.Name = "button10";
+            this.button10.Size = new System.Drawing.Size(99, 62);
+            this.button10.TabIndex = 43;
+            this.button10.Text = "SAVE BILL";
+            this.button10.UseVisualStyleBackColor = true;
             // 
             // label15
             // 
@@ -607,142 +706,135 @@
             this.tabPage3.Text = "PREVIEW BILL";
             this.tabPage3.UseVisualStyleBackColor = true;
             // 
-            // tabPage6
+            // label27
             // 
-            this.tabPage6.Controls.Add(this.button3);
-            this.tabPage6.Controls.Add(this.textBox11);
-            this.tabPage6.Controls.Add(this.textBox10);
-            this.tabPage6.Controls.Add(this.textBox9);
-            this.tabPage6.Controls.Add(this.radioButton3);
-            this.tabPage6.Controls.Add(this.radioButton2);
-            this.tabPage6.Controls.Add(this.radioButton1);
-            this.tabPage6.Controls.Add(this.label33);
-            this.tabPage6.Controls.Add(this.label32);
-            this.tabPage6.Controls.Add(this.label31);
-            this.tabPage6.Controls.Add(this.label30);
-            this.tabPage6.Controls.Add(this.label29);
-            this.tabPage6.Controls.Add(this.label28);
-            this.tabPage6.Location = new System.Drawing.Point(4, 29);
-            this.tabPage6.Name = "tabPage6";
-            this.tabPage6.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage6.Size = new System.Drawing.Size(1313, 687);
-            this.tabPage6.TabIndex = 5;
-            this.tabPage6.Text = "ADD SHOPPER";
-            this.tabPage6.UseVisualStyleBackColor = true;
+            this.label27.AutoSize = true;
+            this.label27.Location = new System.Drawing.Point(43, 440);
+            this.label27.Name = "label27";
+            this.label27.Size = new System.Drawing.Size(165, 20);
+            this.label27.TabIndex = 62;
+            this.label27.Text = "FOR DETAILED BILL";
             // 
-            // tabPage7
+            // textBox8
             // 
-            this.tabPage7.Controls.Add(this.button4);
-            this.tabPage7.Controls.Add(this.label45);
-            this.tabPage7.Controls.Add(this.label44);
-            this.tabPage7.Controls.Add(this.label43);
-            this.tabPage7.Controls.Add(this.label42);
-            this.tabPage7.Controls.Add(this.label36);
-            this.tabPage7.Controls.Add(this.label37);
-            this.tabPage7.Controls.Add(this.label38);
-            this.tabPage7.Controls.Add(this.label39);
-            this.tabPage7.Controls.Add(this.label40);
-            this.tabPage7.Controls.Add(this.label41);
-            this.tabPage7.Controls.Add(this.groupBox8);
-            this.tabPage7.Location = new System.Drawing.Point(4, 29);
-            this.tabPage7.Name = "tabPage7";
-            this.tabPage7.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage7.Size = new System.Drawing.Size(1313, 687);
-            this.tabPage7.TabIndex = 6;
-            this.tabPage7.Text = "PREVIEW SHOPPER";
-            this.tabPage7.UseVisualStyleBackColor = true;
+            this.textBox8.Location = new System.Drawing.Point(214, 434);
+            this.textBox8.Name = "textBox8";
+            this.textBox8.Size = new System.Drawing.Size(121, 26);
+            this.textBox8.TabIndex = 61;
             // 
-            // button10
+            // dataGridView3
             // 
-            this.button10.Location = new System.Drawing.Point(669, 461);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(99, 62);
-            this.button10.TabIndex = 43;
-            this.button10.Text = "SAVE BILL";
-            this.button10.UseVisualStyleBackColor = true;
+            this.dataGridView3.AllowUserToOrderColumns = true;
+            this.dataGridView3.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView3.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dataGridViewTextBoxColumn1,
+            this.dataGridViewTextBoxColumn2,
+            this.dataGridViewTextBoxColumn3,
+            this.dataGridViewTextBoxColumn4,
+            this.dataGridViewTextBoxColumn5,
+            this.dataGridViewTextBoxColumn6,
+            this.dataGridViewTextBoxColumn7});
+            this.dataGridView3.Location = new System.Drawing.Point(6, 472);
+            this.dataGridView3.Name = "dataGridView3";
+            this.dataGridView3.RowHeadersWidth = 62;
+            this.dataGridView3.RowTemplate.Height = 28;
+            this.dataGridView3.Size = new System.Drawing.Size(1090, 197);
+            this.dataGridView3.TabIndex = 60;
             // 
-            // groupBox5
+            // dataGridViewTextBoxColumn1
             // 
-            this.groupBox5.Controls.Add(this.groupBox7);
-            this.groupBox5.Controls.Add(this.groupBox6);
-            this.groupBox5.Location = new System.Drawing.Point(75, 57);
-            this.groupBox5.Name = "groupBox5";
-            this.groupBox5.Size = new System.Drawing.Size(910, 137);
-            this.groupBox5.TabIndex = 50;
-            this.groupBox5.TabStop = false;
-            this.groupBox5.Text = "SEARCH BILL HERE";
+            this.dataGridViewTextBoxColumn1.HeaderText = "ITEM ID";
+            this.dataGridViewTextBoxColumn1.MinimumWidth = 8;
+            this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
+            this.dataGridViewTextBoxColumn1.Width = 150;
             // 
-            // label20
+            // dataGridViewTextBoxColumn2
             // 
-            this.label20.AutoSize = true;
-            this.label20.Location = new System.Drawing.Point(6, 22);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(121, 20);
-            this.label20.TabIndex = 2;
-            this.label20.Text = "CUSTOMER ID";
+            this.dataGridViewTextBoxColumn2.HeaderText = "ITEM NAME";
+            this.dataGridViewTextBoxColumn2.MinimumWidth = 8;
+            this.dataGridViewTextBoxColumn2.Name = "dataGridViewTextBoxColumn2";
+            this.dataGridViewTextBoxColumn2.Width = 150;
             // 
-            // label21
+            // dataGridViewTextBoxColumn3
             // 
-            this.label21.AutoSize = true;
-            this.label21.Location = new System.Drawing.Point(326, 16);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(150, 20);
-            this.label21.TabIndex = 3;
-            this.label21.Text = "CUSTOMER NAME";
+            this.dataGridViewTextBoxColumn3.HeaderText = "PRICE";
+            this.dataGridViewTextBoxColumn3.MinimumWidth = 8;
+            this.dataGridViewTextBoxColumn3.Name = "dataGridViewTextBoxColumn3";
+            this.dataGridViewTextBoxColumn3.ReadOnly = true;
+            this.dataGridViewTextBoxColumn3.Width = 150;
             // 
-            // textBox3
+            // dataGridViewTextBoxColumn4
             // 
-            this.textBox3.Location = new System.Drawing.Point(175, 16);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(123, 26);
-            this.textBox3.TabIndex = 5;
+            this.dataGridViewTextBoxColumn4.HeaderText = "Qty";
+            this.dataGridViewTextBoxColumn4.MinimumWidth = 8;
+            this.dataGridViewTextBoxColumn4.Name = "dataGridViewTextBoxColumn4";
+            this.dataGridViewTextBoxColumn4.Width = 150;
             // 
-            // textBox4
+            // dataGridViewTextBoxColumn5
             // 
-            this.textBox4.Location = new System.Drawing.Point(491, 18);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(210, 26);
-            this.textBox4.TabIndex = 6;
+            this.dataGridViewTextBoxColumn5.HeaderText = "STOCK REMAIN";
+            this.dataGridViewTextBoxColumn5.MinimumWidth = 8;
+            this.dataGridViewTextBoxColumn5.Name = "dataGridViewTextBoxColumn5";
+            this.dataGridViewTextBoxColumn5.ReadOnly = true;
+            this.dataGridViewTextBoxColumn5.Width = 150;
             // 
-            // groupBox6
+            // dataGridViewTextBoxColumn6
             // 
-            this.groupBox6.Controls.Add(this.label20);
-            this.groupBox6.Controls.Add(this.textBox4);
-            this.groupBox6.Controls.Add(this.label21);
-            this.groupBox6.Controls.Add(this.textBox3);
-            this.groupBox6.Location = new System.Drawing.Point(53, 25);
-            this.groupBox6.Name = "groupBox6";
-            this.groupBox6.Size = new System.Drawing.Size(719, 50);
-            this.groupBox6.TabIndex = 7;
-            this.groupBox6.TabStop = false;
-            this.groupBox6.Text = "BY CUSROMER";
+            this.dataGridViewTextBoxColumn6.HeaderText = "SUB TOTAL";
+            this.dataGridViewTextBoxColumn6.MinimumWidth = 8;
+            this.dataGridViewTextBoxColumn6.Name = "dataGridViewTextBoxColumn6";
+            this.dataGridViewTextBoxColumn6.ReadOnly = true;
+            this.dataGridViewTextBoxColumn6.Width = 150;
             // 
-            // groupBox7
+            // dataGridViewTextBoxColumn7
             // 
-            this.groupBox7.Controls.Add(this.label16);
-            this.groupBox7.Controls.Add(this.textBox5);
-            this.groupBox7.Location = new System.Drawing.Point(53, 81);
-            this.groupBox7.Name = "groupBox7";
-            this.groupBox7.Size = new System.Drawing.Size(708, 50);
-            this.groupBox7.TabIndex = 8;
-            this.groupBox7.TabStop = false;
-            this.groupBox7.Text = "BY BILL NO";
+            this.dataGridViewTextBoxColumn7.HeaderText = "REFERANCE";
+            this.dataGridViewTextBoxColumn7.MinimumWidth = 8;
+            this.dataGridViewTextBoxColumn7.Name = "dataGridViewTextBoxColumn7";
+            this.dataGridViewTextBoxColumn7.Width = 150;
             // 
-            // textBox5
+            // dataGridView2
             // 
-            this.textBox5.Location = new System.Drawing.Point(231, 18);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(141, 26);
-            this.textBox5.TabIndex = 0;
+            this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView2.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.BILLNO,
+            this.DATE,
+            this.AMOUNT,
+            this.REF});
+            this.dataGridView2.Location = new System.Drawing.Point(108, 299);
+            this.dataGridView2.Name = "dataGridView2";
+            this.dataGridView2.RowHeadersWidth = 62;
+            this.dataGridView2.RowTemplate.Height = 28;
+            this.dataGridView2.Size = new System.Drawing.Size(672, 112);
+            this.dataGridView2.TabIndex = 59;
             // 
-            // label16
+            // BILLNO
             // 
-            this.label16.AutoSize = true;
-            this.label16.Location = new System.Drawing.Point(127, 22);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(70, 20);
-            this.label16.TabIndex = 1;
-            this.label16.Text = "BILL NO";
+            this.BILLNO.HeaderText = "BILL NO";
+            this.BILLNO.MinimumWidth = 8;
+            this.BILLNO.Name = "BILLNO";
+            this.BILLNO.Width = 150;
+            // 
+            // DATE
+            // 
+            this.DATE.HeaderText = "DATE";
+            this.DATE.MinimumWidth = 8;
+            this.DATE.Name = "DATE";
+            this.DATE.Width = 150;
+            // 
+            // AMOUNT
+            // 
+            this.AMOUNT.HeaderText = "AMOUNT";
+            this.AMOUNT.MinimumWidth = 8;
+            this.AMOUNT.Name = "AMOUNT";
+            this.AMOUNT.Width = 150;
+            // 
+            // REF
+            // 
+            this.REF.HeaderText = "REFERANCE";
+            this.REF.MinimumWidth = 8;
+            this.REF.Name = "REF";
+            this.REF.Width = 150;
             // 
             // label17
             // 
@@ -816,297 +908,141 @@
             this.label26.TabIndex = 51;
             this.label26.Text = "CUSTOMER NAME:";
             // 
-            // dataGridView2
-            // 
-            this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView2.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.BILLNO,
-            this.DATE,
-            this.AMOUNT,
-            this.REF});
-            this.dataGridView2.Location = new System.Drawing.Point(108, 299);
-            this.dataGridView2.Name = "dataGridView2";
-            this.dataGridView2.RowHeadersWidth = 62;
-            this.dataGridView2.RowTemplate.Height = 28;
-            this.dataGridView2.Size = new System.Drawing.Size(672, 112);
-            this.dataGridView2.TabIndex = 59;
-            // 
-            // BILLNO
-            // 
-            this.BILLNO.HeaderText = "BILL NO";
-            this.BILLNO.MinimumWidth = 8;
-            this.BILLNO.Name = "BILLNO";
-            this.BILLNO.Width = 150;
-            // 
-            // DATE
-            // 
-            this.DATE.HeaderText = "DATE";
-            this.DATE.MinimumWidth = 8;
-            this.DATE.Name = "DATE";
-            this.DATE.Width = 150;
-            // 
-            // AMOUNT
-            // 
-            this.AMOUNT.HeaderText = "AMOUNT";
-            this.AMOUNT.MinimumWidth = 8;
-            this.AMOUNT.Name = "AMOUNT";
-            this.AMOUNT.Width = 150;
-            // 
-            // REF
-            // 
-            this.REF.HeaderText = "REFERANCE";
-            this.REF.MinimumWidth = 8;
-            this.REF.Name = "REF";
-            this.REF.Width = 150;
-            // 
-            // itemid
-            // 
-            this.itemid.HeaderText = "ITEM ID";
-            this.itemid.MinimumWidth = 8;
-            this.itemid.Name = "itemid";
-            this.itemid.Width = 150;
-            // 
-            // itemname
-            // 
-            this.itemname.HeaderText = "ITEM NAME";
-            this.itemname.MinimumWidth = 8;
-            this.itemname.Name = "itemname";
-            this.itemname.Width = 150;
-            // 
-            // price
-            // 
-            this.price.HeaderText = "PRICE";
-            this.price.MinimumWidth = 8;
-            this.price.Name = "price";
-            this.price.ReadOnly = true;
-            this.price.Width = 150;
-            // 
-            // qty
-            // 
-            this.qty.HeaderText = "Qty";
-            this.qty.MinimumWidth = 8;
-            this.qty.Name = "qty";
-            this.qty.Width = 150;
-            // 
-            // stoc
-            // 
-            this.stoc.HeaderText = "STOCK REMAIN";
-            this.stoc.MinimumWidth = 8;
-            this.stoc.Name = "stoc";
-            this.stoc.ReadOnly = true;
-            this.stoc.Width = 150;
-            // 
-            // subtot
-            // 
-            this.subtot.HeaderText = "SUB TOTAL";
-            this.subtot.MinimumWidth = 8;
-            this.subtot.Name = "subtot";
-            this.subtot.ReadOnly = true;
-            this.subtot.Width = 150;
-            // 
-            // REFERANCE
-            // 
-            this.REFERANCE.HeaderText = "REFERANCE";
-            this.REFERANCE.MinimumWidth = 8;
-            this.REFERANCE.Name = "REFERANCE";
-            this.REFERANCE.Width = 150;
-            // 
-            // CASH
-            // 
-            this.CASH.AutoSize = true;
-            this.CASH.Location = new System.Drawing.Point(133, 483);
-            this.CASH.Name = "CASH";
-            this.CASH.Size = new System.Drawing.Size(54, 20);
-            this.CASH.TabIndex = 44;
-            this.CASH.Text = "CASH";
-            // 
-            // linkLabel2
-            // 
-            this.linkLabel2.AutoSize = true;
-            this.linkLabel2.Location = new System.Drawing.Point(138, 512);
-            this.linkLabel2.Name = "linkLabel2";
-            this.linkLabel2.Size = new System.Drawing.Size(55, 20);
-            this.linkLabel2.TabIndex = 45;
-            this.linkLabel2.TabStop = true;
-            this.linkLabel2.Text = "CHEQ";
-            this.linkLabel2.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel2_LinkClicked);
-            // 
-            // textBox6
-            // 
-            this.textBox6.Location = new System.Drawing.Point(231, 485);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(65, 26);
-            this.textBox6.TabIndex = 46;
-            // 
-            // textBox7
-            // 
-            this.textBox7.Location = new System.Drawing.Point(233, 524);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(62, 26);
-            this.textBox7.TabIndex = 47;
-            // 
-            // dataGridView3
-            // 
-            this.dataGridView3.AllowUserToOrderColumns = true;
-            this.dataGridView3.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView3.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.dataGridViewTextBoxColumn1,
-            this.dataGridViewTextBoxColumn2,
-            this.dataGridViewTextBoxColumn3,
-            this.dataGridViewTextBoxColumn4,
-            this.dataGridViewTextBoxColumn5,
-            this.dataGridViewTextBoxColumn6,
-            this.dataGridViewTextBoxColumn7});
-            this.dataGridView3.Location = new System.Drawing.Point(6, 472);
-            this.dataGridView3.Name = "dataGridView3";
-            this.dataGridView3.RowHeadersWidth = 62;
-            this.dataGridView3.RowTemplate.Height = 28;
-            this.dataGridView3.Size = new System.Drawing.Size(1090, 197);
-            this.dataGridView3.TabIndex = 60;
-            // 
-            // dataGridViewTextBoxColumn1
-            // 
-            this.dataGridViewTextBoxColumn1.HeaderText = "ITEM ID";
-            this.dataGridViewTextBoxColumn1.MinimumWidth = 8;
-            this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
-            this.dataGridViewTextBoxColumn1.Width = 150;
-            // 
-            // dataGridViewTextBoxColumn2
-            // 
-            this.dataGridViewTextBoxColumn2.HeaderText = "ITEM NAME";
-            this.dataGridViewTextBoxColumn2.MinimumWidth = 8;
-            this.dataGridViewTextBoxColumn2.Name = "dataGridViewTextBoxColumn2";
-            this.dataGridViewTextBoxColumn2.Width = 150;
-            // 
-            // dataGridViewTextBoxColumn3
-            // 
-            this.dataGridViewTextBoxColumn3.HeaderText = "PRICE";
-            this.dataGridViewTextBoxColumn3.MinimumWidth = 8;
-            this.dataGridViewTextBoxColumn3.Name = "dataGridViewTextBoxColumn3";
-            this.dataGridViewTextBoxColumn3.ReadOnly = true;
-            this.dataGridViewTextBoxColumn3.Width = 150;
-            // 
-            // dataGridViewTextBoxColumn4
-            // 
-            this.dataGridViewTextBoxColumn4.HeaderText = "Qty";
-            this.dataGridViewTextBoxColumn4.MinimumWidth = 8;
-            this.dataGridViewTextBoxColumn4.Name = "dataGridViewTextBoxColumn4";
-            this.dataGridViewTextBoxColumn4.Width = 150;
-            // 
-            // dataGridViewTextBoxColumn5
-            // 
-            this.dataGridViewTextBoxColumn5.HeaderText = "STOCK REMAIN";
-            this.dataGridViewTextBoxColumn5.MinimumWidth = 8;
-            this.dataGridViewTextBoxColumn5.Name = "dataGridViewTextBoxColumn5";
-            this.dataGridViewTextBoxColumn5.ReadOnly = true;
-            this.dataGridViewTextBoxColumn5.Width = 150;
-            // 
-            // dataGridViewTextBoxColumn6
-            // 
-            this.dataGridViewTextBoxColumn6.HeaderText = "SUB TOTAL";
-            this.dataGridViewTextBoxColumn6.MinimumWidth = 8;
-            this.dataGridViewTextBoxColumn6.Name = "dataGridViewTextBoxColumn6";
-            this.dataGridViewTextBoxColumn6.ReadOnly = true;
-            this.dataGridViewTextBoxColumn6.Width = 150;
-            // 
-            // dataGridViewTextBoxColumn7
-            // 
-            this.dataGridViewTextBoxColumn7.HeaderText = "REFERANCE";
-            this.dataGridViewTextBoxColumn7.MinimumWidth = 8;
-            this.dataGridViewTextBoxColumn7.Name = "dataGridViewTextBoxColumn7";
-            this.dataGridViewTextBoxColumn7.Width = 150;
-            // 
-            // textBox8
-            // 
-            this.textBox8.Location = new System.Drawing.Point(214, 434);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(121, 26);
-            this.textBox8.TabIndex = 61;
-            // 
-            // label27
-            // 
-            this.label27.AutoSize = true;
-            this.label27.Location = new System.Drawing.Point(43, 440);
-            this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(165, 20);
-            this.label27.TabIndex = 62;
-            this.label27.Text = "FOR DETAILED BILL";
-            // 
-            // label28
-            // 
-            this.label28.AutoSize = true;
-            this.label28.Location = new System.Drawing.Point(184, 110);
-            this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(121, 20);
-            this.label28.TabIndex = 0;
-            this.label28.Text = "CUSTOMER ID";
-            // 
-            // label29
-            // 
-            this.label29.AutoSize = true;
-            this.label29.Location = new System.Drawing.Point(337, 110);
-            this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(60, 20);
-            this.label29.TabIndex = 1;
-            this.label29.Text = "label29";
-            // 
-            // label30
-            // 
-            this.label30.AutoSize = true;
-            this.label30.Location = new System.Drawing.Point(129, 147);
-            this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(150, 20);
-            this.label30.TabIndex = 2;
-            this.label30.Text = "CUSTOMER NAME";
-            // 
-            // label31
-            // 
-            this.label31.AutoSize = true;
-            this.label31.Location = new System.Drawing.Point(133, 196);
-            this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(89, 20);
-            this.label31.TabIndex = 3;
-            this.label31.Text = "ADDRESS";
-            // 
-            // label32
-            // 
-            this.label32.AutoSize = true;
-            this.label32.Location = new System.Drawing.Point(173, 264);
-            this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(110, 20);
-            this.label32.TabIndex = 4;
-            this.label32.Text = "CONTACT NO";
-            // 
-            // label33
-            // 
-            this.label33.AutoSize = true;
-            this.label33.Location = new System.Drawing.Point(162, 297);
-            this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(145, 20);
-            this.label33.TabIndex = 5;
-            this.label33.Text = "CUSTOMER TYPE";
-            // 
-            // radioButton1
-            // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Location = new System.Drawing.Point(387, 303);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(137, 24);
-            this.radioButton1.TabIndex = 6;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "FANCY SHOP";
-            this.radioButton1.UseVisualStyleBackColor = true;
-            // 
-            // radioButton2
-            // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(565, 314);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(88, 24);
-            this.radioButton2.TabIndex = 7;
-            this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "SALON";
-            this.radioButton2.UseVisualStyleBackColor = true;
+            // groupBox5
+            // 
+            this.groupBox5.Controls.Add(this.groupBox7);
+            this.groupBox5.Controls.Add(this.groupBox6);
+            this.groupBox5.Location = new System.Drawing.Point(75, 57);
+            this.groupBox5.Name = "groupBox5";
+            this.groupBox5.Size = new System.Drawing.Size(910, 137);
+            this.groupBox5.TabIndex = 50;
+            this.groupBox5.TabStop = false;
+            this.groupBox5.Text = "SEARCH BILL HERE";
+            // 
+            // groupBox7
+            // 
+            this.groupBox7.Controls.Add(this.label16);
+            this.groupBox7.Controls.Add(this.textBox5);
+            this.groupBox7.Location = new System.Drawing.Point(53, 81);
+            this.groupBox7.Name = "groupBox7";
+            this.groupBox7.Size = new System.Drawing.Size(708, 50);
+            this.groupBox7.TabIndex = 8;
+            this.groupBox7.TabStop = false;
+            this.groupBox7.Text = "BY BILL NO";
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Location = new System.Drawing.Point(127, 22);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(70, 20);
+            this.label16.TabIndex = 1;
+            this.label16.Text = "BILL NO";
+            // 
+            // textBox5
+            // 
+            this.textBox5.Location = new System.Drawing.Point(231, 18);
+            this.textBox5.Name = "textBox5";
+            this.textBox5.Size = new System.Drawing.Size(141, 26);
+            this.textBox5.TabIndex = 0;
+            // 
+            // groupBox6
+            // 
+            this.groupBox6.Controls.Add(this.label20);
+            this.groupBox6.Controls.Add(this.textBox4);
+            this.groupBox6.Controls.Add(this.label21);
+            this.groupBox6.Controls.Add(this.textBox3);
+            this.groupBox6.Location = new System.Drawing.Point(53, 25);
+            this.groupBox6.Name = "groupBox6";
+            this.groupBox6.Size = new System.Drawing.Size(719, 50);
+            this.groupBox6.TabIndex = 7;
+            this.groupBox6.TabStop = false;
+            this.groupBox6.Text = "BY CUSROMER";
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.Location = new System.Drawing.Point(6, 22);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(121, 20);
+            this.label20.TabIndex = 2;
+            this.label20.Text = "CUSTOMER ID";
+            // 
+            // textBox4
+            // 
+            this.textBox4.Location = new System.Drawing.Point(491, 18);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(210, 26);
+            this.textBox4.TabIndex = 6;
+            // 
+            // label21
+            // 
+            this.label21.AutoSize = true;
+            this.label21.Location = new System.Drawing.Point(326, 16);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(150, 20);
+            this.label21.TabIndex = 3;
+            this.label21.Text = "CUSTOMER NAME";
+            // 
+            // textBox3
+            // 
+            this.textBox3.Location = new System.Drawing.Point(175, 16);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(123, 26);
+            this.textBox3.TabIndex = 5;
+            // 
+            // tabPage6
+            // 
+            this.tabPage6.Controls.Add(this.button3);
+            this.tabPage6.Controls.Add(this.textBox11);
+            this.tabPage6.Controls.Add(this.textBox10);
+            this.tabPage6.Controls.Add(this.textBox9);
+            this.tabPage6.Controls.Add(this.radioButton3);
+            this.tabPage6.Controls.Add(this.radioButton2);
+            this.tabPage6.Controls.Add(this.radioButton1);
+            this.tabPage6.Controls.Add(this.label33);
+            this.tabPage6.Controls.Add(this.label32);
+            this.tabPage6.Controls.Add(this.label31);
+            this.tabPage6.Controls.Add(this.label30);
+            this.tabPage6.Controls.Add(this.label29);
+            this.tabPage6.Controls.Add(this.label28);
+            this.tabPage6.Location = new System.Drawing.Point(4, 29);
+            this.tabPage6.Name = "tabPage6";
+            this.tabPage6.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage6.Size = new System.Drawing.Size(1313, 687);
+            this.tabPage6.TabIndex = 5;
+            this.tabPage6.Text = "ADD SHOPPER";
+            this.tabPage6.UseVisualStyleBackColor = true;
+            // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(123, 348);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(252, 140);
+            this.button3.TabIndex = 12;
+            this.button3.Text = "ADD CUSTOMER";
+            this.button3.UseVisualStyleBackColor = true;
+            // 
+            // textBox11
+            // 
+            this.textBox11.Location = new System.Drawing.Point(304, 263);
+            this.textBox11.Name = "textBox11";
+            this.textBox11.Size = new System.Drawing.Size(165, 26);
+            this.textBox11.TabIndex = 11;
+            // 
+            // textBox10
+            // 
+            this.textBox10.Location = new System.Drawing.Point(286, 197);
+            this.textBox10.Name = "textBox10";
+            this.textBox10.Size = new System.Drawing.Size(224, 26);
+            this.textBox10.TabIndex = 10;
+            // 
+            // textBox9
+            // 
+            this.textBox9.Location = new System.Drawing.Point(348, 164);
+            this.textBox9.Name = "textBox9";
+            this.textBox9.Size = new System.Drawing.Size(175, 26);
+            this.textBox9.TabIndex = 9;
             // 
             // radioButton3
             // 
@@ -1119,80 +1055,148 @@
             this.radioButton3.Text = "WHOLESALE SHOP";
             this.radioButton3.UseVisualStyleBackColor = true;
             // 
-            // textBox9
+            // radioButton2
             // 
-            this.textBox9.Location = new System.Drawing.Point(348, 164);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(175, 26);
-            this.textBox9.TabIndex = 9;
+            this.radioButton2.AutoSize = true;
+            this.radioButton2.Location = new System.Drawing.Point(565, 314);
+            this.radioButton2.Name = "radioButton2";
+            this.radioButton2.Size = new System.Drawing.Size(88, 24);
+            this.radioButton2.TabIndex = 7;
+            this.radioButton2.TabStop = true;
+            this.radioButton2.Text = "SALON";
+            this.radioButton2.UseVisualStyleBackColor = true;
             // 
-            // textBox10
+            // radioButton1
             // 
-            this.textBox10.Location = new System.Drawing.Point(286, 197);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(224, 26);
-            this.textBox10.TabIndex = 10;
+            this.radioButton1.AutoSize = true;
+            this.radioButton1.Location = new System.Drawing.Point(387, 303);
+            this.radioButton1.Name = "radioButton1";
+            this.radioButton1.Size = new System.Drawing.Size(137, 24);
+            this.radioButton1.TabIndex = 6;
+            this.radioButton1.TabStop = true;
+            this.radioButton1.Text = "FANCY SHOP";
+            this.radioButton1.UseVisualStyleBackColor = true;
             // 
-            // textBox11
+            // label33
             // 
-            this.textBox11.Location = new System.Drawing.Point(304, 263);
-            this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(165, 26);
-            this.textBox11.TabIndex = 11;
+            this.label33.AutoSize = true;
+            this.label33.Location = new System.Drawing.Point(162, 297);
+            this.label33.Name = "label33";
+            this.label33.Size = new System.Drawing.Size(145, 20);
+            this.label33.TabIndex = 5;
+            this.label33.Text = "CUSTOMER TYPE";
             // 
-            // button3
+            // label32
             // 
-            this.button3.Location = new System.Drawing.Point(123, 348);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(252, 140);
-            this.button3.TabIndex = 12;
-            this.button3.Text = "ADD CUSTOMER";
-            this.button3.UseVisualStyleBackColor = true;
+            this.label32.AutoSize = true;
+            this.label32.Location = new System.Drawing.Point(173, 264);
+            this.label32.Name = "label32";
+            this.label32.Size = new System.Drawing.Size(110, 20);
+            this.label32.TabIndex = 4;
+            this.label32.Text = "CONTACT NO";
             // 
-            // groupBox8
+            // label31
             // 
-            this.groupBox8.Controls.Add(this.label34);
-            this.groupBox8.Controls.Add(this.textBox12);
-            this.groupBox8.Controls.Add(this.label35);
-            this.groupBox8.Controls.Add(this.textBox13);
-            this.groupBox8.Location = new System.Drawing.Point(49, 60);
-            this.groupBox8.Name = "groupBox8";
-            this.groupBox8.Size = new System.Drawing.Size(719, 50);
-            this.groupBox8.TabIndex = 8;
-            this.groupBox8.TabStop = false;
-            this.groupBox8.Text = "SHOPPER";
+            this.label31.AutoSize = true;
+            this.label31.Location = new System.Drawing.Point(133, 196);
+            this.label31.Name = "label31";
+            this.label31.Size = new System.Drawing.Size(89, 20);
+            this.label31.TabIndex = 3;
+            this.label31.Text = "ADDRESS";
             // 
-            // label34
+            // label30
             // 
-            this.label34.AutoSize = true;
-            this.label34.Location = new System.Drawing.Point(6, 22);
-            this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(121, 20);
-            this.label34.TabIndex = 2;
-            this.label34.Text = "CUSTOMER ID";
+            this.label30.AutoSize = true;
+            this.label30.Location = new System.Drawing.Point(129, 147);
+            this.label30.Name = "label30";
+            this.label30.Size = new System.Drawing.Size(150, 20);
+            this.label30.TabIndex = 2;
+            this.label30.Text = "CUSTOMER NAME";
             // 
-            // textBox12
+            // label29
             // 
-            this.textBox12.Location = new System.Drawing.Point(491, 18);
-            this.textBox12.Name = "textBox12";
-            this.textBox12.Size = new System.Drawing.Size(210, 26);
-            this.textBox12.TabIndex = 6;
+            this.label29.AutoSize = true;
+            this.label29.Location = new System.Drawing.Point(337, 110);
+            this.label29.Name = "label29";
+            this.label29.Size = new System.Drawing.Size(60, 20);
+            this.label29.TabIndex = 1;
+            this.label29.Text = "label29";
             // 
-            // label35
+            // label28
             // 
-            this.label35.AutoSize = true;
-            this.label35.Location = new System.Drawing.Point(326, 16);
-            this.label35.Name = "label35";
-            this.label35.Size = new System.Drawing.Size(150, 20);
-            this.label35.TabIndex = 3;
-            this.label35.Text = "CUSTOMER NAME";
+            this.label28.AutoSize = true;
+            this.label28.Location = new System.Drawing.Point(184, 110);
+            this.label28.Name = "label28";
+            this.label28.Size = new System.Drawing.Size(121, 20);
+            this.label28.TabIndex = 0;
+            this.label28.Text = "CUSTOMER ID";
             // 
-            // textBox13
+            // tabPage7
             // 
-            this.textBox13.Location = new System.Drawing.Point(175, 16);
-            this.textBox13.Name = "textBox13";
-            this.textBox13.Size = new System.Drawing.Size(123, 26);
-            this.textBox13.TabIndex = 5;
+            this.tabPage7.Controls.Add(this.button4);
+            this.tabPage7.Controls.Add(this.label45);
+            this.tabPage7.Controls.Add(this.label44);
+            this.tabPage7.Controls.Add(this.label43);
+            this.tabPage7.Controls.Add(this.label42);
+            this.tabPage7.Controls.Add(this.label36);
+            this.tabPage7.Controls.Add(this.label37);
+            this.tabPage7.Controls.Add(this.label38);
+            this.tabPage7.Controls.Add(this.label39);
+            this.tabPage7.Controls.Add(this.label40);
+            this.tabPage7.Controls.Add(this.label41);
+            this.tabPage7.Controls.Add(this.groupBox8);
+            this.tabPage7.Location = new System.Drawing.Point(4, 29);
+            this.tabPage7.Name = "tabPage7";
+            this.tabPage7.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage7.Size = new System.Drawing.Size(1313, 687);
+            this.tabPage7.TabIndex = 6;
+            this.tabPage7.Text = "PREVIEW SHOPPER";
+            this.tabPage7.UseVisualStyleBackColor = true;
+            // 
+            // button4
+            // 
+            this.button4.Location = new System.Drawing.Point(291, 457);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(304, 59);
+            this.button4.TabIndex = 22;
+            this.button4.Text = "DELETE CUSTOMER";
+            this.button4.UseVisualStyleBackColor = true;
+            // 
+            // label45
+            // 
+            this.label45.AutoSize = true;
+            this.label45.Location = new System.Drawing.Point(380, 406);
+            this.label45.Name = "label45";
+            this.label45.Size = new System.Drawing.Size(60, 20);
+            this.label45.TabIndex = 21;
+            this.label45.Text = "label45";
+            // 
+            // label44
+            // 
+            this.label44.AutoSize = true;
+            this.label44.Location = new System.Drawing.Point(342, 366);
+            this.label44.Name = "label44";
+            this.label44.Size = new System.Drawing.Size(60, 20);
+            this.label44.TabIndex = 20;
+            this.label44.Text = "label44";
+            // 
+            // label43
+            // 
+            this.label43.AutoSize = true;
+            this.label43.Location = new System.Drawing.Point(296, 291);
+            this.label43.Name = "label43";
+            this.label43.Size = new System.Drawing.Size(60, 20);
+            this.label43.TabIndex = 19;
+            this.label43.Text = "label43";
+            // 
+            // label42
+            // 
+            this.label42.AutoSize = true;
+            this.label42.Location = new System.Drawing.Point(353, 246);
+            this.label42.Name = "label42";
+            this.label42.Size = new System.Drawing.Size(60, 20);
+            this.label42.TabIndex = 18;
+            this.label42.Text = "label42";
             // 
             // label36
             // 
@@ -1248,50 +1252,66 @@
             this.label41.TabIndex = 12;
             this.label41.Text = "CUSTOMER ID";
             // 
-            // label42
+            // groupBox8
             // 
-            this.label42.AutoSize = true;
-            this.label42.Location = new System.Drawing.Point(353, 246);
-            this.label42.Name = "label42";
-            this.label42.Size = new System.Drawing.Size(60, 20);
-            this.label42.TabIndex = 18;
-            this.label42.Text = "label42";
+            this.groupBox8.Controls.Add(this.label34);
+            this.groupBox8.Controls.Add(this.textBox12);
+            this.groupBox8.Controls.Add(this.label35);
+            this.groupBox8.Controls.Add(this.textBox13);
+            this.groupBox8.Location = new System.Drawing.Point(49, 60);
+            this.groupBox8.Name = "groupBox8";
+            this.groupBox8.Size = new System.Drawing.Size(719, 50);
+            this.groupBox8.TabIndex = 8;
+            this.groupBox8.TabStop = false;
+            this.groupBox8.Text = "SHOPPER";
             // 
-            // label43
+            // label34
             // 
-            this.label43.AutoSize = true;
-            this.label43.Location = new System.Drawing.Point(296, 291);
-            this.label43.Name = "label43";
-            this.label43.Size = new System.Drawing.Size(60, 20);
-            this.label43.TabIndex = 19;
-            this.label43.Text = "label43";
+            this.label34.AutoSize = true;
+            this.label34.Location = new System.Drawing.Point(6, 22);
+            this.label34.Name = "label34";
+            this.label34.Size = new System.Drawing.Size(121, 20);
+            this.label34.TabIndex = 2;
+            this.label34.Text = "CUSTOMER ID";
             // 
-            // label44
+            // textBox12
             // 
-            this.label44.AutoSize = true;
-            this.label44.Location = new System.Drawing.Point(342, 366);
-            this.label44.Name = "label44";
-            this.label44.Size = new System.Drawing.Size(60, 20);
-            this.label44.TabIndex = 20;
-            this.label44.Text = "label44";
+            this.textBox12.Location = new System.Drawing.Point(491, 18);
+            this.textBox12.Name = "textBox12";
+            this.textBox12.Size = new System.Drawing.Size(210, 26);
+            this.textBox12.TabIndex = 6;
             // 
-            // label45
+            // label35
             // 
-            this.label45.AutoSize = true;
-            this.label45.Location = new System.Drawing.Point(380, 406);
-            this.label45.Name = "label45";
-            this.label45.Size = new System.Drawing.Size(60, 20);
-            this.label45.TabIndex = 21;
-            this.label45.Text = "label45";
+            this.label35.AutoSize = true;
+            this.label35.Location = new System.Drawing.Point(326, 16);
+            this.label35.Name = "label35";
+            this.label35.Size = new System.Drawing.Size(150, 20);
+            this.label35.TabIndex = 3;
+            this.label35.Text = "CUSTOMER NAME";
             // 
-            // button4
+            // textBox13
             // 
-            this.button4.Location = new System.Drawing.Point(291, 457);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(304, 59);
-            this.button4.TabIndex = 22;
-            this.button4.Text = "DELETE CUSTOMER";
-            this.button4.UseVisualStyleBackColor = true;
+            this.textBox13.Location = new System.Drawing.Point(175, 16);
+            this.textBox13.Name = "textBox13";
+            this.textBox13.Size = new System.Drawing.Size(123, 26);
+            this.textBox13.TabIndex = 5;
+            // 
+            // textBox14
+            // 
+            this.textBox14.Location = new System.Drawing.Point(928, 57);
+            this.textBox14.Name = "textBox14";
+            this.textBox14.Size = new System.Drawing.Size(108, 26);
+            this.textBox14.TabIndex = 48;
+            // 
+            // label46
+            // 
+            this.label46.AutoSize = true;
+            this.label46.Location = new System.Drawing.Point(848, 62);
+            this.label46.Name = "label46";
+            this.label46.Size = new System.Drawing.Size(64, 20);
+            this.label46.TabIndex = 49;
+            this.label46.Text = "EMP ID";
             // 
             // care
             // 
@@ -1314,17 +1334,17 @@
             this.tabPage2.PerformLayout();
             this.tabPage3.ResumeLayout(false);
             this.tabPage3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
+            this.groupBox5.ResumeLayout(false);
+            this.groupBox7.ResumeLayout(false);
+            this.groupBox7.PerformLayout();
+            this.groupBox6.ResumeLayout(false);
+            this.groupBox6.PerformLayout();
             this.tabPage6.ResumeLayout(false);
             this.tabPage6.PerformLayout();
             this.tabPage7.ResumeLayout(false);
             this.tabPage7.PerformLayout();
-            this.groupBox5.ResumeLayout(false);
-            this.groupBox6.ResumeLayout(false);
-            this.groupBox6.PerformLayout();
-            this.groupBox7.ResumeLayout(false);
-            this.groupBox7.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).EndInit();
             this.groupBox8.ResumeLayout(false);
             this.groupBox8.PerformLayout();
             this.ResumeLayout(false);
@@ -1447,6 +1467,8 @@
         private System.Windows.Forms.TextBox textBox12;
         private System.Windows.Forms.Label label35;
         private System.Windows.Forms.TextBox textBox13;
+        private System.Windows.Forms.Label label46;
+        private System.Windows.Forms.TextBox textBox14;
     }
 }
 
