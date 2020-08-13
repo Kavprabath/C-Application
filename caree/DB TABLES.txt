@@ -1,0 +1,102 @@
+------------------------------------------------------------------------------------------------------------
+CUSTOMER (OR SHOPPER)
+-CUS_ID PK (AUTO NUM)
+-CUS_NAME
+-CUS_ADDRESS
+-CUS_CONTACT_NO
+-CUS_TYPE (!3 TYPES FOR CALCULATING DISCOUNT 1.FANCY SHOP 25%  , 2.SALON 30% , 3.WHOLESALE 35% )
+
+------------------------------------------------------------------------------------------------------------
+EMPLOYEE
+-EMP_ID PK (AUTO NUM)
+-EMP_FULL NAME
+-EMP_NIC
+-EMP_ADDRESS
+-EMP_CONTACT_NO
+-EMP_EMAIL
+-EMP_JOB_TITLE
+-EMP_GENDER
+-EMP_USERNAME(UNIQUE)
+-EMP_PASSWORD
+-EMP_SALLARY( NULL VALUE ACCEPTED BECAUSE SALLARY ADD BY OWNER AFTER)
+
+------------------------------------------------------------------------------------------------------------------
+
+BUYER
+-BUY_ID PK (AUTO NUM)
+-BUY_NAME
+-BUY_ADDRESS
+-BUY_CONTACT NO
+-BUY_TYPE
+
+--------------------------------------------------------------------------------------------------------------------
+
+ITEM
+-ITM_ID PK (AUTO NUM)
+-ITM_NAME
+-ITM_SUP_PRICE
+-ITM_MRP
+-BUY_ID (FK FROM BUYER TABLE)
+-ITM_STOCK
+
+------------------------------------------------------------------------------------------------------------------------
+
+BILL
+-BILL_NO PK (AUTO NUM)
+-CUS_ID (FK FROM CUSTOMER TABLE)
+-EMP_ID (FK FROM EMPLOYEE TABLE)
+-DATE
+-NET_TOT
+-DISCOUNT
+-GRAND_TOT
+-COST
+-CHEQ_NO
+
+-------------------------------------------------------------------------------------------------------------------------
+
+BILL_ITM
+-BILL_NO (FK FROM BILL TABLE)
+-ITM_NO(FK FROM ITEM TABLE)
+-QTY
+				>(BILL_NO + ITM_NO + QTY )=PK
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+STOC_ADD
+-ITEM_ID
+-INVOICE_NO
+-QTY
+			>(ITEM_ID + INVOICE_NO + QTY)=PK
+
+------------------------------------------------------------------------------------------------------------------------------
+
+ISSUE_CHEQUE
+-CHQ_NO PK
+-BANK
+-ACC_NO
+-AMOUNT
+-DATE
+-REF
+-BUY_ID(FK FROM BUYER TABLE)
+
+-------------------------------------------------------------------------------------------------------------------------------
+
+RECEIVED_CHEQUE
+-CHQ_NO PK
+-BANK
+-ACC_NO
+-AMOUNT
+-DATE
+-REF
+-CUS_ID(FK FROM CUSTOMER TABLE)
+
+------------------------------------------------------------------------------------------------------------------------------
+EXPENSES
+-DATE
+-AMOUNT
+-RESON
+-EMP_ID( FK FROM EMPLOYEE TABLE)
+
+(!NO PK)
+
+---------------------------------------------------------------------------------------------------------------------------------
